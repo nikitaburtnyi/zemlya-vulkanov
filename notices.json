@@ -1,0 +1,33 @@
+{
+ "note": "Объявления «Земли вулканов»: закрытые маршруты и предупреждения ведомств. Живут здесь и на странице https://nikitaburtnyi.github.io/zemlya-vulkanov/notices.json — приложение загружает их, когда есть сеть. Правило: только по источнику, с датой; снятое ограничение — удалить объявление. Решение Никиты 13.09.2026.",
+ "updated": "2026-09-13",
+ "items": [
+  {
+   "id": "mutnovsky-2026-08-28",
+   "date": "2026-08-28",
+   "targets": [
+    "ds-mutnovsky",
+    "hs-dachny",
+    "gvp-300060",
+    "rt-5",
+    "rt-7",
+    "rt-10",
+    "ac-hike",
+    "ac-snow",
+    "ac-heliski",
+    "pr-days",
+    "pa-southpark"
+   ],
+   "titleRu": "Мутновский: посещение не рекомендуется",
+   "titleEn": "Mutnovsky: visits not recommended",
+   "titleZh": "穆特诺夫斯基火山：不建议前往",
+   "textRu": "28.08.2026 Минтуризма Камчатского края не рекомендует посещать вулкан Мутновский: высокая сейсмическая активность, риск оползней и обвалов. Перед поездкой уточните обстановку в дирекции парка.",
+   "textEn": "As of 28.08.2026 the Kamchatka Ministry of Tourism advises against visiting Mutnovsky volcano: high seismic activity, risk of landslides and rockfalls. Check the situation with the park office before you go.",
+   "textZh": "2026年8月28日，堪察加边疆区旅游部不建议前往穆特诺夫斯基火山：地震活动强烈，有滑坡和塌方的危险。出发前请向公园管理处确认情况。",
+   "sourceRu": "Минтуризма Камчатского края, сводка по сообщению kamtoday.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, summary as reported by kamtoday.ru",
+   "sourceZh": "堪察加边疆区旅游部通报（据 kamtoday.ru 报道）",
+   "url": "https://kamtoday.ru/news/poluostrov/minturizma-kamchatki-v-parke-nalychevo-vosstanovili-most-na-klyuchevskom-i-mutnovskom-opasno/"
+  }
+ ]
+}
