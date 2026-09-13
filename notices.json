@@ -28,6 +28,24 @@
    "sourceEn": "Kamchatka Ministry of Tourism, summary as reported by kamtoday.ru",
    "sourceZh": "堪察加边疆区旅游部通报（据 kamtoday.ru 报道）",
    "url": "https://kamtoday.ru/news/poluostrov/minturizma-kamchatki-v-parke-nalychevo-vosstanovili-most-na-klyuchevskom-i-mutnovskom-opasno/"
+  },
+  {
+   "id": "nalychevo-2026-09-11",
+   "date": "2026-09-11",
+   "targets": [
+    "ds-nalychevo",
+    "pa-nalychevo"
+   ],
+   "titleRu": "Налычево: два маршрута закрыты из-за паводка",
+   "titleEn": "Nalychevo: two routes closed because of flooding",
+   "titleZh": "纳雷切沃：两条线路因洪水关闭",
+   "textRu": "По сводке Минтуризма Камчатского края от 11.09.2026, из-за паводка закрыты автомобильный маршрут «Радыгино — Центральный» и транзитный пеший маршрут «р. Налычева — р. Островная»; какие маршруты открыты, уточняйте в дирекции парка.",
+   "textEn": "According to the Kamchatka Ministry of Tourism update of 11.09.2026, the Radygino — Tsentralny vehicle route and the transit hiking route from the Nalycheva River to the Ostrovnaya River are closed because of flooding; check with the park office which routes are open.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月11日的通报，因洪水，从拉迪吉诺到中心区的汽车线路和从纳雷切瓦河到奥斯特罗夫纳亚河的过境徒步线路已关闭；哪些线路开放，请向公园管理处确认。",
+   "sourceRu": "Минтуризма Камчатского края, сводка по сообщению kamtoday.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, summary as reported by kamtoday.ru",
+   "sourceZh": "堪察加边疆区旅游部通报（据 kamtoday.ru 报道）",
+   "url": "https://kamtoday.ru/news/poluostrov/minturizma-kamchatki-gde-otkryty-marshruty-a-k-kakim-vulkanam-luchshe-ne-priblizhatsya/"
   }
  ]
 }
