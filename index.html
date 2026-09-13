@@ -36,7 +36,7 @@
      iPhone, версию iOS и экран, на котором это случилось.</p>
 
   <h2>Конфиденциальность</h2>
-  <p><strong>Приложение не собирает никаких данных.</strong> У него нет сервера,
+  <p><strong>Приложение не собирает никаких данных о вас.</strong> У него нет сервера,
      нет аккаунтов, нет рекламы и нет аналитики.</p>
   <ul>
     <li>Отметки о посещённых вулканах, городах и местах, встречи со зверями,
@@ -45,12 +45,15 @@
         Снимок выбирается в системном окне «Фото»: доступа ко всей медиатеке
         приложение не просит.</li>
     <li>Доступ к геопозиции запрашивается только когда вы сами нажимаете
-        «Рядом со мной» на экране карты. Координаты используются на устройстве,
-        чтобы посчитать расстояние до вулканов, и нигде не сохраняются
-        и не передаются.</li>
-    <li>Единственное обращение в сеть — загрузка подложки карты сервисом
-        Apple Maps. Всё остальное содержимое уже внутри приложения.</li>
-    <li>Данные не передаются третьим лицам, потому что не собираются.</li>
+        «Рядом со мной» на карте или «Считать от меня» на экране «Сегодня».
+        Координаты используются только на устройстве, чтобы посчитать
+        расстояние до вулканов, нигде не сохраняются и не передаются.</li>
+    <li>Обращений в сеть два. Подложку карты загружает сервис Apple Maps
+        по правилам Apple. Прогноз погоды на экране «Сегодня» — всегда
+        для Петропавловска-Камчатского — приходит из сервиса Open-Meteo:
+        в запросе только координаты города, никаких данных о вас. Всё остальное
+        содержимое уже внутри приложения.</li>
+    <li>Данные о вас не передаются третьим лицам, потому что не собираются.</li>
   </ul>
   <p>Если политика изменится, эта страница будет обновлена.</p>
 
@@ -74,12 +77,14 @@
     <p><strong>Land of Volcanoes</strong> is an offline guide to the volcanoes
        of Kamchatka.</p>
     <p>Support: <a href="mailto:klopovka.games@gmail.com">klopovka.games@gmail.com</a></p>
-    <p><strong>The app collects no data.</strong> There is no server, no account,
+    <p><strong>The app collects no data about you.</strong> There is no server, no account,
        no advertising and no analytics. Your visit marks, animal encounters, collected stamps, quiz results and
        any notes and photos you add stay on your device. Location access is requested only when you
-       tap “Near me” on the map screen; the coordinates are used on the device
-       to show distances and are never stored or transmitted. The only network
-       request is Apple Maps loading map tiles.</p>
+       tap “Near me” on the map or “From my location” on the Today screen; the coordinates
+       are used only on the device to show distances and are never stored or transmitted.
+       There are two network requests: Apple Maps loading map tiles under Apple’s rules,
+       and the weather forecast on the Today screen — always for Petropavlovsk-Kamchatsky —
+       from Open-Meteo; the request contains only the city’s coordinates, nothing about you.</p>
     <p>Volcano data: Global Volcanism Program, Smithsonian Institution.
        Climate data: ERA5 reanalysis archive. Photographs: Wikimedia Commons
        under CC BY, CC BY-SA and public domain, credited in the app.
@@ -90,7 +95,7 @@
        emergency service or any other government body.</p>
   </div>
 
-  <footer>Обновлено 10 сентября 2026 года · Никита Буртный</footer>
+  <footer>Обновлено 13 сентября 2026 года · Никита Буртный</footer>
 </div>
 </body>
 </html>
