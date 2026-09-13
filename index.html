@@ -48,11 +48,14 @@
         «Рядом со мной» на карте или «Считать от меня» на экране «Сегодня».
         Координаты используются только на устройстве, чтобы посчитать
         расстояние до вулканов, нигде не сохраняются и не передаются.</li>
-    <li>Обращений в сеть два. Подложку карты загружает сервис Apple Maps
+    <li>Обращений в сеть три. Подложку карты загружает сервис Apple Maps
         по правилам Apple. Прогноз погоды на экране «Сегодня» — всегда
         для Петропавловска-Камчатского — приходит из сервиса Open-Meteo:
-        в запросе только координаты города, никаких данных о вас. Всё остальное
-        содержимое уже внутри приложения.</li>
+        в запросе только координаты города, никаких данных о вас.
+        Объявления о закрытых маршрутах и опасностях приложение загружает
+        с этой страницы (файл <code>notices.json</code>) — обычная загрузка
+        файла, тоже без данных о вас. Всё остальное содержимое уже внутри
+        приложения.</li>
     <li>Данные о вас не передаются третьим лицам, потому что не собираются.</li>
   </ul>
   <p>Если политика изменится, эта страница будет обновлена.</p>
@@ -82,9 +85,11 @@
        any notes and photos you add stay on your device. Location access is requested only when you
        tap “Near me” on the map or “From my location” on the Today screen; the coordinates
        are used only on the device to show distances and are never stored or transmitted.
-       There are two network requests: Apple Maps loading map tiles under Apple’s rules,
-       and the weather forecast on the Today screen — always for Petropavlovsk-Kamchatsky —
-       from Open-Meteo; the request contains only the city’s coordinates, nothing about you.</p>
+       There are three network requests: Apple Maps loading map tiles under Apple’s rules;
+       the weather forecast on the Today screen — always for Petropavlovsk-Kamchatsky —
+       from Open-Meteo, whose request contains only the city’s coordinates; and notices about
+       closed routes and hazards, downloaded from this site (<code>notices.json</code>) —
+       nothing about you in any of them.</p>
     <p>Volcano data: Global Volcanism Program, Smithsonian Institution.
        Climate data: ERA5 reanalysis archive. Photographs: Wikimedia Commons
        under CC BY, CC BY-SA and public domain, credited in the app.
