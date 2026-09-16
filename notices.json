@@ -1,10 +1,10 @@
 {
  "note": "Объявления «Земли вулканов»: закрытые маршруты и предупреждения ведомств. Живут здесь и на странице https://nikitaburtnyi.github.io/zemlya-vulkanov/notices.json — приложение загружает их, когда есть сеть. Правило: только по источнику, с датой; снятое ограничение — удалить объявление. Решение Никиты 13.09.2026.",
- "updated": "2026-09-13",
+ "updated": "2026-09-16",
  "items": [
   {
-   "id": "mutnovsky-2026-08-28",
-   "date": "2026-08-28",
+   "id": "mutnovsky-2026-09-10",
+   "date": "2026-09-10",
    "targets": [
     "ds-mutnovsky",
     "hs-dachny",
@@ -18,34 +18,34 @@
     "pr-days",
     "pa-southpark"
    ],
-   "titleRu": "Мутновский: посещение не рекомендуется",
-   "titleEn": "Mutnovsky: visits not recommended",
-   "titleZh": "穆特诺夫斯基火山：不建议前往",
-   "textRu": "28.08.2026 Минтуризма Камчатского края не рекомендует посещать вулкан Мутновский: высокая сейсмическая активность, риск оползней и обвалов. Перед поездкой уточните обстановку в дирекции парка.",
-   "textEn": "As of 28.08.2026 the Kamchatka Ministry of Tourism advises against visiting Mutnovsky volcano: high seismic activity, risk of landslides and rockfalls. Check the situation with the park office before you go.",
-   "textZh": "2026年8月28日，堪察加边疆区旅游部不建议前往穆特诺夫斯基火山：地震活动强烈，有滑坡和塌方的危险。出发前请向公园管理处确认情况。",
-   "sourceRu": "Минтуризма Камчатского края, сводка по сообщению kamtoday.ru",
-   "sourceEn": "Kamchatka Ministry of Tourism, summary as reported by kamtoday.ru",
-   "sourceZh": "堪察加边疆区旅游部通报（据 kamtoday.ru 报道）",
-   "url": "https://kamtoday.ru/news/poluostrov/minturizma-kamchatki-v-parke-nalychevo-vosstanovili-most-na-klyuchevskom-i-mutnovskom-opasno/"
+   "titleRu": "Мутновский: опасно, рекомендуют не приближаться",
+   "titleEn": "Mutnovsky: danger, advised to keep away",
+   "titleZh": "穆特诺夫斯基火山：危险，建议不要靠近",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 10.09.2026: у вулкана Мутновский высокая сейсмическая активность, риск оползней и обвалов. Министерство настоятельно рекомендует не приближаться к вулкану.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 10.09.2026, Mutnovsky volcano shows high seismic activity, with a risk of landslides and rockfalls. The ministry strongly advises not to approach the volcano.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月10日的通报：穆特诺夫斯基火山地震活动强烈，有滑坡和塌方的危险。旅游部强烈建议不要靠近这座火山。",
+   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
+   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-10092026-92242"
   },
   {
-   "id": "nalychevo-2026-09-11",
-   "date": "2026-09-11",
+   "id": "nalychevo-2026-09-10",
+   "date": "2026-09-10",
    "targets": [
     "ds-nalychevo",
     "pa-nalychevo"
    ],
-   "titleRu": "Налычево: два маршрута закрыты из-за паводка",
-   "titleEn": "Nalychevo: two routes closed because of flooding",
-   "titleZh": "纳雷切沃：两条线路因洪水关闭",
-   "textRu": "По сводке Минтуризма Камчатского края от 11.09.2026, из-за паводка закрыты автомобильный маршрут «Радыгино — Центральный» и транзитный пеший маршрут «р. Налычева — р. Островная»; какие маршруты открыты, уточняйте в дирекции парка.",
-   "textEn": "According to the Kamchatka Ministry of Tourism update of 11.09.2026, the Radygino — Tsentralny vehicle route and the transit hiking route from the Nalycheva River to the Ostrovnaya River are closed because of flooding; check with the park office which routes are open.",
-   "textZh": "据堪察加边疆区旅游部 2026年9月11日的通报，因洪水，从拉迪吉诺到中心区的汽车线路和从纳雷切瓦河到奥斯特罗夫纳亚河的过境徒步线路已关闭；哪些线路开放，请向公园管理处确认。",
-   "sourceRu": "Минтуризма Камчатского края, сводка по сообщению kamtoday.ru",
-   "sourceEn": "Kamchatka Ministry of Tourism, summary as reported by kamtoday.ru",
-   "sourceZh": "堪察加边疆区旅游部通报（据 kamtoday.ru 报道）",
-   "url": "https://kamtoday.ru/news/poluostrov/minturizma-kamchatki-gde-otkryty-marshruty-a-k-kakim-vulkanam-luchshe-ne-priblizhatsya/"
+   "titleRu": "Налычево: два маршрута временно закрыты из-за паводка",
+   "titleEn": "Nalychevo: two routes temporarily closed because of flooding",
+   "titleZh": "纳雷切沃：两条线路因洪水暂时关闭",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 10.09.2026: маршруты парка открыты для посещения, но из-за сохраняющейся паводковой ситуации временно закрыты автомобильный маршрут «Радыгино — Центральный» и транзитный пеший маршрут «р. Налычева — р. Островная».",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 10.09.2026, the park’s routes are open to visitors, but because of the ongoing flooding the Radygino — Tsentralny vehicle route and the transit hiking route from the Nalycheva River to the Ostrovnaya River are temporarily closed.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月10日的通报：公园线路开放参观，但由于洪水持续，“拉迪吉诺—中央（Tsentralny）”汽车线路和从纳雷切瓦河到奥斯特罗夫纳亚河的过境徒步线路暂时关闭。",
+   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
+   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-10092026-92242"
   }
  ]
 }
