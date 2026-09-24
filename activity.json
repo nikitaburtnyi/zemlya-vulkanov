@@ -1,0 +1,190 @@
+{
+ "note": "Авиационные цветовые коды опасности вулканов — недельный прогноз KVERT (Камчатская группа реагирования на вулканические извержения, ИВиС ДВО РАН).",
+ "source": "KVERT, ИВиС ДВО РАН",
+ "url": "http://kvert.febras.net/progn/index",
+ "forecastDate": "2026-09-17",
+ "version": 1,
+ "count": 30,
+ "items": [
+  {
+   "gvp": 300010,
+   "id": "gvp-300010",
+   "nameRu": "Камбальный",
+   "code": "green"
+  },
+  {
+   "gvp": 300020,
+   "id": "gvp-300020",
+   "nameRu": "Кошелева",
+   "code": "green"
+  },
+  {
+   "gvp": 300022,
+   "id": "gvp-300022",
+   "nameRu": "Дикий Хребет",
+   "code": "green"
+  },
+  {
+   "gvp": 300030,
+   "id": "gvp-300030",
+   "nameRu": "Ильинский",
+   "code": "green"
+  },
+  {
+   "gvp": 300040,
+   "id": "gvp-300040",
+   "nameRu": "Желтовский",
+   "code": "green"
+  },
+  {
+   "gvp": 300050,
+   "id": "gvp-300050",
+   "nameRu": "Ксудач",
+   "code": "green"
+  },
+  {
+   "gvp": 300053,
+   "id": "gvp-300053",
+   "nameRu": "Ходутка",
+   "code": "green"
+  },
+  {
+   "gvp": 300060,
+   "id": "gvp-300060",
+   "nameRu": "Мутновский",
+   "code": "green"
+  },
+  {
+   "gvp": 300070,
+   "id": "gvp-300070",
+   "nameRu": "Горелый",
+   "code": "green"
+  },
+  {
+   "gvp": 300080,
+   "id": "gvp-300080",
+   "nameRu": "Опала",
+   "code": "green"
+  },
+  {
+   "gvp": 300090,
+   "id": "gvp-300090",
+   "nameRu": "Корякская сопка",
+   "code": "green"
+  },
+  {
+   "gvp": 300100,
+   "id": "gvp-300100",
+   "nameRu": "Авачинская сопка",
+   "code": "green"
+  },
+  {
+   "gvp": 300120,
+   "id": "gvp-300120",
+   "nameRu": "Жупановский",
+   "code": "green"
+  },
+  {
+   "gvp": 300130,
+   "id": "gvp-300130",
+   "nameRu": "Карымская сопка",
+   "code": "green"
+  },
+  {
+   "gvp": 300140,
+   "id": "gvp-300140",
+   "nameRu": "Малый Семячик",
+   "code": "green"
+  },
+  {
+   "gvp": 300160,
+   "id": "gvp-300160",
+   "nameRu": "Тауншиц",
+   "code": "green"
+  },
+  {
+   "gvp": 300180,
+   "id": "gvp-300180",
+   "nameRu": "Кихпиныч",
+   "code": "green"
+  },
+  {
+   "gvp": 300190,
+   "id": "gvp-300190",
+   "nameRu": "Крашенинникова",
+   "code": "yellow"
+  },
+  {
+   "gvp": 300200,
+   "id": "gvp-300200",
+   "nameRu": "Кроноцкая сопка",
+   "code": "green"
+  },
+  {
+   "gvp": 300210,
+   "id": "gvp-300210",
+   "nameRu": "Гамчен",
+   "code": "green"
+  },
+  {
+   "gvp": 300220,
+   "id": "gvp-300220",
+   "nameRu": "Комарова",
+   "code": "green"
+  },
+  {
+   "gvp": 300221,
+   "id": "gvp-300221",
+   "nameRu": "Высокий",
+   "code": "green"
+  },
+  {
+   "gvp": 300230,
+   "id": "gvp-300230",
+   "nameRu": "Кизимен",
+   "code": "green"
+  },
+  {
+   "gvp": 300240,
+   "id": "gvp-300240",
+   "nameRu": "Толбачик",
+   "code": "green"
+  },
+  {
+   "gvp": 300250,
+   "id": "gvp-300250",
+   "nameRu": "Безымянный",
+   "code": "yellow"
+  },
+  {
+   "gvp": 300260,
+   "id": "gvp-300260",
+   "nameRu": "Ключевская сопка",
+   "code": "yellow"
+  },
+  {
+   "gvp": 300261,
+   "id": "gvp-300261",
+   "nameRu": "Ушковский",
+   "code": "green"
+  },
+  {
+   "gvp": 300270,
+   "id": "gvp-300270",
+   "nameRu": "Шивелуч",
+   "code": "orange"
+  },
+  {
+   "gvp": 300272,
+   "id": "gvp-300272",
+   "nameRu": "Хангар",
+   "code": "green"
+  },
+  {
+   "gvp": 300280,
+   "id": "gvp-300280",
+   "nameRu": "Ичинская сопка",
+   "code": "green"
+  }
+ ]
+}
