@@ -1,8 +1,8 @@
 {
- "version": 5,
+ "version": 9,
  "note": "Факты сверены с открытыми источниками. Порядок доступа и разрешения проверены 12.09.2026 — они меняются, перед поездкой уточняйте у дирекции парка или заповедника.",
  "checked": "25.09.2026",
- "count": 16,
+ "count": 15,
  "items": [
   {
    "id": "ds-geysers",
@@ -226,7 +226,7 @@
    "seasonZh": "7–9 月",
    "textRu": "Один из самых доступных действующих вулканов: около 70 километров от города по прямой. К кратеру поднимаются за один долгий день — по паспорту маршрута 10 часов; без специальной подготовки паспорт этот маршрут не рекомендует.\n\nМутновский в основном дышит газом — его активность выражена фумаролами, но он не спит: пепловые выбросы были 3 июля 2013 года и 2 июля 2026 года. В 2018-м в активном кратере обнаружили озеро.\n\nРядом Дачные источники, которые называют Малой долиной гейзеров. Настоящих гейзеров там почти нет: горячий газ проходит сквозь холодную воду ручья — и получается похоже.",
    "textEn": "One of the most accessible active volcanoes: about 70 kilometres from the city in a straight line. The crater takes one long day — 10 hours by the route passport, and the passport does not recommend the route without special training.\n\nMutnovsky mostly breathes gas — its activity shows as fumaroles — but it is not asleep: there were ash explosions on 3 July 2013 and 2 July 2026. In 2018 a lake was found in the active crater.\n\nNearby are the Dachny springs, called the Little Valley of Geysers. There are hardly any real geysers there: hot gas passes through the cold water of a stream — and the effect looks similar.",
-   "textZh": "最容易到达的活火山之一：距市区直线约 70 公里。登上火山口要走漫长的一整天——按线路护照需要 10 小时；没有专门训练，护照不建议走这条线路。\n\n穆特诺夫斯基火山主要是在“呼气”——它的活动表现为喷气孔，但它并没有沉睡：2013年7月3日和 2026年7月2日都曾喷出火山灰。2018 年，在活火山口里发现了一个湖。\n\n附近是达奇温泉，人称“小间歇泉谷”。其实那里几乎没有真正的间歇泉：热气穿过溪流的冷水——看起来很像而已。",
+   "textZh": "最容易到达的活火山之一：距市区直线距离约 70 公里。登上火山口要走漫长的一整天——按线路护照需要 10 小时；没有专门训练，护照不建议走这条线路。\n\n穆特诺夫斯基火山主要是在“呼气”——它的活动表现为喷气孔，但它并没有沉睡：2013年7月3日和 2026年7月2日都曾喷出火山灰。2018 年，在活火山口里发现了一个湖。\n\n附近是达奇温泉，人称“小间歇泉谷”。其实那里几乎没有真正的间歇泉：热气穿过溪流的冷水——看起来很像而已。",
    "factsRu": [
     "Последний пепловый выброс — 2 июля 2026 года.",
     "В 2018 году в активном кратере нашли озеро.",
@@ -361,9 +361,9 @@
   },
   {
    "id": "ds-dead-forest",
-   "nameRu": "Мёртвый лес Толбачика",
-   "nameEn": "Tolbachik dead forest",
-   "nameZh": "托尔巴奇克死亡森林",
+   "nameRu": "Толбачинский дол и Мёртвый лес",
+   "nameEn": "Tolbachinsky Dol and the Dead Forest",
+   "nameZh": "托尔巴奇克熔岩台地与死亡森林",
    "kindRu": "природный парк",
    "kindEn": "nature park",
    "kindZh": "自然公园",
@@ -371,38 +371,45 @@
    "lon": 160.2683,
    "coordSource": "OSM node/4316411191 «Мертвый лес» (проверено 16.09.2026)",
    "distanceKm": 308,
-   "accessRu": "На вездеходе от Козыревска, обычно с ночёвкой.",
-   "accessEn": "By all-terrain vehicle from Kozyrevsk, usually overnight.",
-   "accessZh": "从科济列夫斯克乘全地形车前往，通常要过夜。",
-   "permitRu": "Ключевской природный парк, разрешение оформляется онлайн, плюс рекреационный сбор.",
-   "permitEn": "Klyuchevskoy Nature Park, permit issued online, plus a recreation fee.",
-   "permitZh": "克柳切夫自然公园，许可可在线办理，另需缴纳游憩费。",
-   "seasonRu": "Июль — сентябрь",
-   "seasonEn": "July — September",
-   "seasonZh": "7–9 月",
-   "textRu": "Лес, погибший при Большом трещинном Толбачинском извержении 1975–1976 годов: деревья засыпало раскалённым шлаком и пеплом, а стволы так и остались стоять. Вокруг — чёрные шлаковые поля; на Толбачике и Шивелуче выбирали площадки для испытаний советских луноходов.\n\nИзвержение 2012–2013 годов добавило свежие лавовые поля: местами земля до сих пор тёплая.",
-   "textEn": "A forest killed in the Great Tolbachik Fissure Eruption of 1975–1976: the trees were buried in hot cinder and ash, and the trunks were left standing. Black cinder fields lie all around; test sites for the Soviet lunar rovers were chosen on Tolbachik and Sheveluch.\n\nThe eruption of 2012–2013 added fresh lava fields: in places the ground is still warm.",
-   "textZh": "这片森林毁于 1975–1976 年的托尔巴奇克大裂隙喷发：树木被炽热的火山渣和火山灰掩埋，树干却一直立在那里。周围是黑色的火山渣原野；苏联月球车的试验场地曾在托尔巴奇克和希韦卢奇选址。\n\n2012–2013 年的喷发又添了新的熔岩原：有些地方的地面至今仍是温的。",
+   "accessRu": "Сначала 500 километров по дороге до Козыревска, 8–9 часов на машине или рейсовом автобусе. Дальше 70–75 километров лесной дороги на вездеходе, 3–5 часов, с двумя бродами через Студёную: в начале лета она разливается от таяния снега и ледников и может стать настоящей преградой.",
+   "accessEn": "First 500 km by road to Kozyrevsk, 8–9 hours by car or scheduled bus. Then 70–75 km of forest track by all-terrain vehicle, 3–5 hours, with two fords across the Studenaya river: in early summer it swells with meltwater and can become a serious obstacle.",
+   "accessZh": "先沿公路走 500 公里到科济列夫斯克，开车或坐班车 8—9 小时。然后乘全地形车走 70—75 公里林道，3—5 小时，要涉两次斯图杰纳亚河：初夏冰雪融化时河水上涨，可能成为真正的阻碍。",
+   "permitRu": "Нужно разрешение природного парка «Ключевской» и рекреационный сбор. Заявку на паспортизированный маршрут обрабатывают за один рабочий день, на нестандартный — за три. Иностранным туристам для посёлка Ключи нужно заблаговременное согласование ФСБ.",
+   "permitEn": "A permit from the Klyuchevskoy nature park and a recreation fee are required. An application for a listed route is processed in one working day, for a non-standard one in three. Foreign visitors need advance FSB approval for the village of Klyuchi.",
+   "permitZh": "需要克柳切夫自然公园的许可证并缴纳游憩费。已列入名录的线路申请一个工作日办结，非标准线路三个工作日。外国游客前往克柳奇村须事先取得联邦安全局批准。",
+   "seasonRu": "Июнь — сентябрь. Сезон закрывают не снега, а броды через Студёную",
+   "seasonEn": "June — September. It is the fords across the Studenaya, not the snow, that close the season",
+   "seasonZh": "6—9 月。决定季节的不是积雪，而是斯图杰纳亚河的涉水点",
+   "textRu": "Лавовое плато у подножия Плоского и Острого Толбачиков, а на нём — обгоревший лес: деревья засыпало раскалённым шлаком и пеплом при Большом трещинном извержении 1975–1976 годов, и стволы так и остались стоять.\n\nСами вулканы выросли в плейстоцене, а дол моложе: его покров излился уже в голоцене из множества отдельных центров, и на месте каждого остался шлаковый конус.\n\nГлавное здесь — следы двух извержений. Большое трещинное 1975–1976 годов было крупнейшим базальтовым извержением Камчатки и одним из шести самых больших трещинных извержений мира за всю писаную историю; его конусы Северного прорыва объявлены памятником природы. Извержение 2012–2013 годов назвали в честь пятидесятилетия Института вулканологии; южный поток тогда сжёг полевую станцию «Ленинградская» и базу природного парка, а свежая лава местами тёплая до сих пор.\n\nНочуют на кордоне «Клешня» — там кухня-столовая и настильные площадки.",
+   "textEn": "A lava plateau at the foot of Plosky and Ostry Tolbachik, and on it a burnt forest: the trees were buried in red-hot cinder and ash during the Great Fissure Eruption of 1975–1976, and the trunks are still standing.\n\nThe volcanoes themselves grew in the Pleistocene, but the plateau is younger: its cover poured out in the Holocene from many separate vents, each leaving a cinder cone.\n\nWhat matters here are the traces of two eruptions. The Great Fissure Eruption of 1975–1976 was the largest basaltic eruption in Kamchatka and one of the six largest fissure eruptions in recorded history; its Northern Breakthrough cones are a protected natural monument. The 2012–2013 eruption was named for the fiftieth anniversary of the Institute of Volcanology; its southern flow burned down the Leningradskaya field station and a nature park base, and the fresh lava is still warm in places.\n\nPeople sleep at the Kleshnya ranger station, which has a kitchen-canteen and decking platforms.",
+   "textZh": "平顶和尖顶托尔巴奇克山脚下的熔岩台地，上面还有一片烧焦的森林：1975—1976年大裂隙喷发时，树木被炽热的火山渣和火山灰埋住，树干就这样立到了今天。\n\n两座山峰本身形成于更新世，台地则年轻得多：它的熔岩盖在全新世从许多独立的喷出口流出，每一处都留下了一座火山渣锥。\n\n这里最值得看的是两次喷发留下的痕迹。1975—1976年的大裂隙喷发是堪察加最大的一次玄武岩喷发，也是有文字记载以来世界上六次最大的裂隙喷发之一；它北部突破口的火山锥被定为自然纪念物。2012—2013年的喷发以火山学研究所成立五十周年命名；当时南侧的熔岩流烧毁了“列宁格勒”野外站和自然公园的一处基地，新熔岩有些地方至今仍是温热的。\n\n住宿在“克列什尼亚”护林点，那里有厨房餐厅和木栈平台。",
    "factsRu": [
-    "Площадки для испытаний луноходов выбирали на Толбачике и Шивелуче.",
-    "Лес погиб под шлаком извержения 1975–1976 годов.",
-    "Извержение 2012–2013 годов добавило свежую лаву."
+    "Лес погиб под шлаком извержения 1975–1976 годов, а стволы остались стоять.",
+    "В 1969 году здесь испытывали «Луноход»: местность совпала с лунной поверхностью на 96 процентов.",
+    "По числу впервые открытых минералов — 153 — Толбачик сегодня мировой рекордсмен.",
+    "Извержение 1975–1976 годов выбросило 2,3 кубических километра вещества и было предсказано заранее.",
+    "Извержение 2012–2013 годов добавило свежую лаву: местами земля тёплая до сих пор."
    ],
    "factsEn": [
-    "Test sites for the lunar rovers were chosen on Tolbachik and Sheveluch.",
-    "The forest died under the cinder of the 1975–1976 eruption.",
-    "The 2012–2013 eruption added fresh lava."
+    "The forest died under the cinder of the 1975–1976 eruption, and the trunks stayed standing.",
+    "In 1969 the Lunokhod rover was tested here: the ground matched the lunar surface by 96 per cent.",
+    "With 153 minerals first described here, Tolbachik is today the world record holder.",
+    "The 1975–1976 eruption threw out 2.3 cubic kilometres of material and had been predicted in advance.",
+    "The 2012–2013 eruption added fresh lava: in places the ground is still warm."
    ],
    "factsZh": [
-    "月球车试验场地曾在托尔巴奇克和希韦卢奇选址。",
-    "森林毁于 1975–1976 年喷发的火山渣之下。",
-    "2012–2013 年的喷发添了新的熔岩。"
+    "这片森林在 1975—1976年喷发的火山渣下死去，树干却一直立着。",
+    "1969 年这里试验过“月球车”：地表与月面的吻合度达到 96%。",
+    "以首次发现的矿物数量计——153 种——托尔巴奇克是当今的世界纪录保持者。",
+    "1975—1976年的喷发喷出 2.3 立方公里物质，而且事先被预报出来。",
+    "2012—2013年的喷发添了新的熔岩：有些地方地面至今温热。"
    ],
    "image": "dest_dsdeadforest",
    "creditRu": "Фото: kuhnmi · CC BY 2.0, Викисклад",
    "creditEn": "Photo: kuhnmi · CC BY 2.0, Wikimedia Commons",
    "creditZh": "照片：kuhnmi · CC BY 2.0，维基共享资源",
    "months": [
+    6,
     7,
     8,
     9
@@ -421,9 +428,9 @@
    "lon": 160.3041,
    "coordSource": "OSM node/11831907569 «Долина Великанов», смотровая точка (проверено 24.09.2026)",
    "distanceKm": 341,
-   "accessRu": "Автобусом до Козыревска — около 570 км, 8–9 часов. Дальше на вахтовке по лесной дороге 3–4 часа до сопки Копыто. Обычно с ночёвкой в лагере.",
-   "accessEn": "By coach to Kozyrevsk — about 570 km, 8–9 hours. Then 3–4 hours by off-road truck along a forest track to Mount Kopyto. Usually with a night in camp.",
-   "accessZh": "乘大巴前往科济列夫斯克，约 570 公里、8–9 小时；再换乘越野卡车沿林间土路行驶 3–4 小时到科佩托山。通常要在营地过夜。",
+   "accessRu": "Автобусом до Козыревска — около 500 км, 8–9 часов. Дальше на вахтовке по лесной дороге 3–4 часа до сопки Копыто. Обычно с ночёвкой в лагере.",
+   "accessEn": "By coach to Kozyrevsk — about 500 km, 8–9 hours. Then 3–4 hours by off-road truck along a forest track to Mount Kopyto. Usually with a night in camp.",
+   "accessZh": "乘大巴前往科济列夫斯克，约 500 公里、8–9 小时；再换乘越野卡车沿林间土路行驶 3–4 小时到科佩托山。通常要在营地过夜。",
    "permitRu": "Ключевской природный парк, разрешение оформляется онлайн, плюс рекреационный сбор.",
    "permitEn": "Klyuchevskoy Nature Park, permit issued online, plus a recreation fee.",
    "permitZh": "克柳切夫自然公园，许可可在线办理，另需缴纳游憩费。",
@@ -585,7 +592,7 @@
    "seasonZh": "7–9 月，冬天乘雪地摩托",
    "textRu": "Сорокаметровый водопад на северо-западном склоне Вилючинского вулкана, примерно в 46 километрах от города по прямой. Ручей рождается из тающего ледника на склоне и падает со скальной стены, а внизу тут же прячется в снежнике, который не тает всё лето.\n\n**Осторожно у стены.** Зимой водопад замерзает в голубую ледяную колонну — красиво, но опасно: в январе 2021 года при обрушении ледяной глыбы погиб человек, несколько пострадали. Не подходите под свод и не заходите в грот.",
    "textEn": "A forty-metre waterfall on the north-western slope of Vilyuchinsky volcano, about 46 km from the city as the crow flies. The stream is born from a melting glacier on the slope, drops over a rock wall and immediately hides in a snowfield below that never melts all summer.\n\n**Careful at the wall.** In winter the waterfall freezes into a blue column of ice — beautiful but dangerous: in January 2021 a falling block of ice killed one person and injured several. Don’t stand under the overhang or enter the grotto.",
-   "textZh": "维柳钦斯基火山西北坡上一道四十米高的瀑布，距市区直线约 46 公里。溪流源自山坡上正在融化的冰川，从岩壁上落下，随即钻进下方一整个夏天都不化的积雪里。\n\n**岩壁下要小心。**冬天瀑布冻成一根蓝色的冰柱——很美，但很危险：2021年1月，一块坠落的冰块砸死一人、砸伤数人。不要站到岩檐下，也不要进入洞穴。",
+   "textZh": "维柳钦斯基火山西北坡上一道四十米高的瀑布，距市区直线距离约 46 公里。溪流源自山坡上正在融化的冰川，从岩壁上落下，随即钻进下方一整个夏天都不化的积雪里。\n\n**岩壁下要小心。**冬天瀑布冻成一根蓝色的冰柱——很美，但很危险：2021年1月，一块坠落的冰块砸死一人、砸伤数人。不要站到岩檐下，也不要进入洞穴。",
    "factsRu": [
     "Высота падения — 40 метров.",
     "Питается ледником на склоне Вилючинского.",
@@ -769,53 +776,8 @@
     "“骆驼”岩体是三块长在一起的安山岩。大约一万年前，黏稠的岩浆慢慢被挤出地表，凝成了驼峰。",
     "旁边的一些隆起形成得更早——在冰川底下，冰把它们的侧面磨圆了。",
     "这里的北极黄鼠不能喂：巧克力对它们是毒药，一小块就足以要了它的命。"
-   ]
-  },
-  {
-   "id": "ds-tolbachik-dol",
-   "nameRu": "Толбачинский дол",
-   "nameEn": "Tolbachinsky Dol",
-   "nameZh": "托尔巴奇克熔岩台地",
-   "kindRu": "природный парк",
-   "kindEn": "nature park",
-   "kindZh": "自然公园",
-   "lat": 55.7353,
-   "lon": 160.3153,
-   "distanceKm": 318,
-   "distanceBy": "air",
-   "accessRu": "Сначала 500 километров по дороге до Козыревска, 8–9 часов на машине или рейсовом автобусе. Дальше 70–75 километров лесной дороги на вездеходе, 3–5 часов, с двумя бродами через Студёную: в начале лета она разливается от таяния снега и ледников и может стать настоящей преградой.",
-   "accessEn": "First 500 km by road to Kozyrevsk, 8–9 hours by car or scheduled bus. Then 70–75 km of forest track by all-terrain vehicle, 3–5 hours, with two fords across the Studenaya river: in early summer it swells with meltwater and can become a serious obstacle.",
-   "accessZh": "先沿公路走 500 公里到科济列夫斯克，开车或坐班车 8—9 小时。然后乘全地形车走 70—75 公里林道，3—5 小时，要涉两次斯图杰纳亚河：初夏冰雪融化时河水上涨，可能成为真正的阻碍。",
-   "permitRu": "Нужно разрешение природного парка «Ключевской» и рекреационный сбор. Заявку на паспортизированный маршрут обрабатывают за один рабочий день, на нестандартный — за три. Иностранным туристам для посёлка Ключи нужно заблаговременное согласование ФСБ.",
-   "permitEn": "A permit from the Klyuchevskoy nature park and a recreation fee are required. An application for a listed route is processed in one working day, for a non-standard one in three. Foreign visitors need advance FSB approval for the village of Klyuchi.",
-   "permitZh": "需要克柳切夫自然公园的许可证并缴纳游憩费。已列入名录的线路申请一个工作日办结，非标准线路三个工作日。外国游客前往克柳奇村须事先取得联邦安全局批准。",
-   "seasonRu": "Июнь — сентябрь. Сезон закрывают не снега, а броды через Студёную",
-   "seasonEn": "June — September. It is the fords across the Studenaya, not the snow, that close the season",
-   "seasonZh": "6—9 月。决定季节的不是积雪，而是斯图杰纳亚河的涉水点",
-   "months": [
-    6,
-    7,
-    8,
-    9
    ],
-   "textRu": "Лавовое плато у подножия Плоского и Острого Толбачиков. Сами вулканы выросли в плейстоцене, а дол моложе: его покров излился уже в голоцене из множества отдельных центров, и на месте каждого остался шлаковый конус.\n\nГлавное здесь — следы двух извержений. Большое трещинное 1975–1976 годов было крупнейшим базальтовым извержением Камчатки и одним из шести самых больших трещинных извержений мира за всю писаную историю; его конусы Северного прорыва объявлены памятником природы. Извержение 2012–2013 годов назвали в честь пятидесятилетия Института вулканологии; южный поток тогда сжёг полевую станцию «Ленинградская» и базу природного парка.\n\nНочуют на кордоне «Клешня» — там кухня-столовая и настильные площадки.",
-   "textEn": "A lava plateau at the foot of Plosky and Ostry Tolbachik. The volcanoes themselves grew in the Pleistocene, but the plateau is younger: its cover poured out in the Holocene from many separate vents, each leaving a cinder cone behind.\n\nWhat matters here are the traces of two eruptions. The Great Fissure Eruption of 1975–76 was the largest basaltic eruption in Kamchatka and one of the six largest fissure eruptions in recorded history; its Northern Breakthrough cones are a protected natural monument. The 2012–13 eruption was named for the fiftieth anniversary of the Institute of Volcanology; its southern flow burned down the Leningradskaya field station and a nature park base.\n\nPeople sleep at the Kleshnya ranger station, which has a kitchen-canteen and decking platforms.",
-   "textZh": "托尔巴奇克火山（平顶峰与尖顶峰）脚下的熔岩台地。两座山峰本身形成于更新世，台地则年轻得多：它的熔岩盖在全新世从许多独立的喷出口流出，每一处都留下了一座火山渣锥。\n\n这里最值得看的是两次喷发留下的痕迹。1975—1976年的大裂隙喷发是堪察加最大的一次玄武岩喷发，也是有文字记载以来世界上六次最大的裂隙喷发之一；它北部突破口的火山锥被定为自然纪念物。2012—2013年的喷发以火山学研究所成立五十周年命名；当时南侧的熔岩流烧毁了“列宁格勒”野外站和自然公园的一处基地。\n\n住宿在“克列什尼亚”护林点，那里有厨房餐厅和木栈平台。",
-   "factsRu": [
-    "В 1969 году здесь испытывали «Луноход»: коэффициент соответствия местности поверхности Луны оказался 96 процентов, и площадку повысили до полигона.",
-    "По числу впервые открытых минералов — 153 — Толбачик сегодня мировой рекордсмен; их находят прямо в фумаролах на конусах Северного прорыва.",
-    "Извержение 1975–1976 годов выбросило 2,3 кубических километра вещества и было предсказано заранее — его наблюдали полтора года подряд."
-   ],
-   "factsEn": [
-    "In 1969 the Lunokhod rover was tested here: the ground matched the lunar surface by 96 per cent, and the site was upgraded to a proving ground.",
-    "With 153 minerals first described here, Tolbachik is today the world record holder; they are found in the fumaroles on the Northern Breakthrough cones.",
-    "The 1975–76 eruption threw out 2.3 cubic kilometres of material and had been predicted in advance — it was watched for a year and a half."
-   ],
-   "factsZh": [
-    "1969 年这里试验过“月球车”：地表与月面的吻合度达到 96%，试验场因此升格为正式靶场。",
-    "以首次发现的矿物数量计——153 种——托尔巴奇克是当今的世界纪录保持者；它们就在北部突破口火山锥的喷气孔里被找到。",
-    "1975—1976年的喷发喷出 2.3 立方公里物质，而且事先被预报出来——人们连续观测了一年半。"
-   ]
+   "permitNeeded": false
   }
  ],
  "noteEn": "Facts are checked against open sources. Access rules and permits were checked on 12.09.2026 — they change, so confirm with the park or reserve administration before travelling.",
