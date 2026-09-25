@@ -1,8 +1,8 @@
 {
- "version": 1,
- "note": "Заведения, цены на услуги и правила меняются быстро. Всё здесь сверено с Камчатским туристическим порталом (visitkamchatka.ru), сайтами заведений и аэропорта Елизово 13.09.2026; перед поездкой перепроверьте на месте. Рейтингов и цен нет нарочно — они устаревают первыми.",
- "noteEn": "Venues, service prices and rules change fast. Everything here was checked against the Kamchatka tourism portal (visitkamchatka.ru), the venues’ own sites and the Yelizovo airport site on 13.09.2026; recheck locally before your trip. There are no ratings or prices on purpose — they go stale first.",
- "noteZh": "场所、服务价格和规定变化很快。这里的一切都已于 2026年9月13日与堪察加旅游门户网站（visitkamchatka.ru）、各场所官网和叶利佐沃机场网站核对；出行前请在当地再次确认。这里故意不列评分和价格——它们最先过时。",
+ "version": 4,
+ "note": "Заведения, цены на услуги и правила меняются быстро. Всё здесь сверено с Камчатским туристическим порталом (visitkamchatka.ru), сайтами заведений и аэропорта Елизово 13.09.2026; разделы «Из аэропорта» и «Что платное» — с сайтами аэропорта, природного парка и заповедника 25.09.2026; перед поездкой перепроверьте на месте. Рейтингов и цен нет нарочно — они устаревают первыми.",
+ "noteEn": "Venues, service prices and rules change fast. Everything here was checked against the Kamchatka tourism portal (visitkamchatka.ru), the venues’ own sites and the Yelizovo airport site on 13.09.2026; the “From the airport” and “What you pay for” sections against the airport, nature park and reserve sites on 25.09.2026; recheck locally before your trip. There are no ratings or prices on purpose — they go stale first.",
+ "noteZh": "场所、服务价格和规定变化很快。这里的一切都已于 2026年9月13日与堪察加旅游门户网站（visitkamchatka.ru）、各场所官网和叶利佐沃机场网站核对；“从机场出发”和“什么要花钱”两节已于 2026年9月25日与机场、自然公园和自然保护区官网核对；出行前请在当地再次确认。这里故意不列评分和价格——它们最先过时。",
  "checked": "13.09.2026",
  "sections": [
   {
@@ -25,7 +25,7 @@
      "tagZh": "鱼",
      "textRu": "Самый крупный и самый жирный из лососей, за океаном её зовут king salmon. На Камчатке нерестятся все шесть видов тихоокеанских лососей: чавыча, нерка, кижуч, кета, горбуша, сима — попробовать стоит хотя бы три и сравнить.",
      "textEn": "The largest and fattest of the salmon, known across the ocean as king salmon. All six Pacific salmon species spawn in Kamchatka — chinook, sockeye, coho, chum, pink and cherry salmon; try at least three and compare.",
-     "textZh": "鲑鱼中个头最大、最肥的一种，大洋彼岸叫它 king salmon（帝王鲑）。太平洋鲑鱼的六个种类都在堪察加产卵：王鲑、红鲑、银鲑、狗鲑、驼背鲑、马苏鲑——至少尝三种比较一下。",
+     "textZh": "鲑鱼中个头最大、最肥的一种，大洋彼岸叫它 king salmon（帝王鲑）。太平洋鲑鱼的六个种类都在堪察加产卵：王鲑、红鲑、银鲑、大麻哈鱼、驼背鲑、马苏鲑——至少尝三种比较一下。",
      "metaRu": "",
      "metaEn": ""
     },
@@ -237,9 +237,9 @@
    "titleRu": "Где поесть",
    "titleEn": "Where to eat",
    "titleZh": "在哪儿吃",
-   "leadRu": "Места, где камчатские продукты — главное в меню. Выбор по краевому порталу, без баров. Часы работы — по порталу и сайтам заведений, лучше позвонить.",
-   "leadEn": "Places where Kamchatka produce is the point of the menu. Chosen from the regional portal, no bars. Opening hours are from the portal and the venues’ own sites — better to call.",
-   "leadZh": "以堪察加食材为菜单主角的地方。依据边疆区门户网站挑选，不含酒吧。营业时间依据门户网站和各餐厅官网，最好先打电话。",
+   "leadRu": "Места, где камчатские продукты — главное в меню. Выбор по краевому порталу, без баров. Часы работы меняются, поэтому их здесь нет: перед выездом позвоните.",
+   "leadEn": "Places where Kamchatka produce is the point of the menu. Chosen from the regional portal, no bars. Opening hours change often, so they are not listed here — call before you go.",
+   "leadZh": "以堪察加食材为菜单主角的地方。依据边疆区门户网站挑选，不含酒吧。营业时间常有变动，这里不再列出——出发前请先打电话。",
    "items": [
     {
      "id": "fw-local",
@@ -267,7 +267,7 @@
     {
      "id": "fw-dvamorya",
      "titleRu": "«Два моря, Океан»",
-     "titleEn": "Dva Morya, Okean",
+     "titleEn": "Dva Morya, Okean (Two Seas, the Ocean)",
      "titleZh": "“两海·大洋”",
      "tagRu": "рыбный ресторан",
      "tagEn": "seafood restaurant",
@@ -275,9 +275,9 @@
      "textRu": "Рыбный ресторан на косе у бухты: камчатский краб, морские ежи, лосось, командорский кальмар и дикоросы; чаи из северных трав.",
      "textEn": "A seafood restaurant on the spit by the bay: Kamchatka crab, sea urchins, salmon, Commander squid and wild plants; teas from northern herbs.",
      "textZh": "海湾沙嘴上的海鲜餐厅：堪察加帝王蟹、海胆、鲑鱼、科曼多尔鱿鱼和山野植物；还有北方草本茶。",
-     "metaRu": "Петропавловск, ул. Озерновская коса, 11 · ежедневно 12:00–00:00",
-     "metaEn": "Petropavlovsk, Ozernovskaya Kosa 11 · daily 12:00–00:00",
-     "metaZh": "彼得罗巴甫洛夫斯克，奥泽尔诺夫斯卡亚沙嘴 11 号 · 每天 12:00–00:00",
+     "metaRu": "Петропавловск, ул. Озерновская коса, 11",
+     "metaEn": "Petropavlovsk, Ozernovskaya Kosa 11",
+     "metaZh": "彼得罗巴甫洛夫斯克，奥泽尔诺夫斯卡亚沙嘴 11 号",
      "lat": 53.0283832,
      "lon": 158.6403748,
      "phone": "+7 (984) 165-55-65",
@@ -291,16 +291,16 @@
      "id": "fw-mishka",
      "titleRu": "MISHKA",
      "titleEn": "MISHKA",
-     "titleZh": "MISHKA",
+     "titleZh": "MISHKA（米什卡）",
      "tagRu": "авторская локальная",
      "tagEn": "chef’s local cuisine",
      "tagZh": "创意本地菜",
      "textRu": "Финалист премии «Пальмовая ветвь ресторанного бизнеса» 2022 года, в топ-100 ресторанных концепций России. Краб, икра, гребешок, чавыча, папоротник, морская капуста и клоповка в меню.",
      "textEn": "A finalist of the 2022 “Palm Branch” restaurant award, among Russia’s top 100 restaurant concepts. Crab, caviar, scallop, chinook, fern, kelp and Kamchatka bilberry on the menu.",
      "textZh": "2022 年“餐饮业棕榈枝奖”决赛入围者，跻身俄罗斯百强餐饮概念。菜单上有螃蟹、鱼子酱、扇贝、王鲑、蕨菜、海带和樱桃越橘。",
-     "metaRu": "Паратунка, ул. Невельского, 6 · ежедневно 12:00–00:00",
-     "metaEn": "Paratunka, Nevelskogo St 6 · daily 12:00–00:00",
-     "metaZh": "帕拉通卡，涅韦尔斯基街 6 号 · 每天 12:00–00:00",
+     "metaRu": "Паратунка, ул. Невельского, 6",
+     "metaEn": "Paratunka, Nevelskogo St 6",
+     "metaZh": "帕拉通卡，涅韦尔斯基街 6 号",
      "lat": 52.9986154,
      "lon": 158.2274578,
      "phone": "+7 (924) 588-43-33",
@@ -314,7 +314,7 @@
     {
      "id": "fw-loslosos",
      "titleRu": "«Лось… Лосось!»",
-     "titleEn": "Los… Losos!",
+     "titleEn": "Los… Losos! (Elk… Salmon!)",
      "titleZh": "“驼鹿……鲑鱼！”",
      "tagRu": "семейный ресторан",
      "tagEn": "family restaurant",
@@ -322,9 +322,9 @@
      "textRu": "Семейный ресторан с авторской кухней в СПА-отеле «Лагуна» в Паратунке; особое внимание камчатским деликатесам.",
      "textEn": "A family restaurant with a chef’s menu at the Laguna spa hotel in Paratunka; special attention to Kamchatka delicacies.",
      "textZh": "位于帕拉通卡“拉古纳”水疗酒店的家庭餐厅，有主厨创意菜，特别用心做堪察加特产。",
-     "metaRu": "Паратунка, ул. Невельского, 6 · пт–вс 12:00–00:00",
-     "metaEn": "Paratunka, Nevelskogo St 6 · Fri–Sun 12:00–00:00",
-     "metaZh": "帕拉通卡，涅韦尔斯基街 6 号 · 周五至周日 12:00–00:00",
+     "metaRu": "Паратунка, ул. Невельского, 6",
+     "metaEn": "Paratunka, Nevelskogo St 6",
+     "metaZh": "帕拉通卡，涅韦尔斯基街 6 号",
      "lat": 52.9985791,
      "lon": 158.2262473,
      "contactChecked": "16.09.2026",
@@ -504,7 +504,7 @@
      "tagZh": "规定",
      "textRu": "Самолётом из Камчатского края можно вывезти не больше 10 кг красной икры непромышленного изготовления на одного пассажира за рейс — в одном месте багажа или ручной клади. Складывать нормы нескольких пассажиров в одну сумку нельзя. Правило действует с 2022 года (закон № 254-ФЗ), с августа 2025 года — также в Хабаровском крае и на Чукотке.",
      "textEn": "By air from Kamchatka Krai you may take no more than 10 kg of non-industrial red caviar per passenger per flight — in one piece of luggage or hand baggage. Combining several passengers’ allowances in one bag is not allowed. In force since 2022 (Federal Law 254-FZ), and since August 2025 also in Khabarovsk Krai and Chukotka.",
-     "textZh": "从堪察加边疆区乘飞机，每位乘客每个航班最多可带 10 公斤非工业生产的红鱼子酱——装在一件托运行李或手提行李里。不能把几位乘客的额度合装在一个包里。这项规定自 2022 年起施行（第 254-FZ 号联邦法律），自 2025 年 8 月起也适用于哈巴罗夫斯克边疆区和楚科奇。",
+     "textZh": "从堪察加边疆区乘飞机，每位乘客每个航班最多可带 10 公斤非工业生产的红鱼子酱——装在一件托运行李或手提行李里。不能把几位乘客的额度合装在一个包里。这项规定自 2022 年起施行（2022 年第 254 号联邦法律），自 2025年8月起也适用于哈巴罗夫斯克边疆区和楚科奇。",
      "metaRu": "",
      "metaEn": ""
     },
@@ -588,12 +588,19 @@
      "tagRu": "лето",
      "tagEn": "summer",
      "tagZh": "夏季",
-     "textRu": "Главный способ увидеть Долину гейзеров, кальдеру Узона и Курильское озеро: 6–7 часов, около 400 км туда и обратно, с высадками. Открыты с июля по сентябрь-октябрь; облёты вулканов без посадки — круглый год. Вылет зависит от погоды: лучшее время — раннее утро, днём вершины закрывают облака. Закладывайте запасной день.",
+     "textRu": "Главный способ увидеть Долину гейзеров, кальдеру Узона и Курильское озеро: 6–7 часов, около 400 км туда и обратно, с высадками. Открыты с июля по сентябрь — октябрь; облёты вулканов без посадки — круглый год. Вылет зависит от погоды: лучшее время — раннее утро, днём вершины закрывают облака. Закладывайте запасной день.",
      "textEn": "The main way to see the Valley of Geysers, Uzon caldera and Kurile Lake: 6–7 hours, about 400 km there and back, with landings. Open from July to September–October; flights over the volcanoes without landing run all year. Departure depends on the weather: early morning is best, by midday the summits are in cloud. Keep a spare day.",
      "textZh": "看间歇泉谷、乌宗破火山口和库里尔斯科耶湖的主要方式：6–7 小时，往返约 400 公里，中途落地参观。7 月到 9–10 月开放；不降落的火山飞览全年都有。能否起飞取决于天气：清晨最好，到中午山顶就被云遮住了。要预留一天备用。",
      "metaRu": "июль — октябрь · от Елизово и Николаевки",
      "metaEn": "July — October · from Yelizovo and Nikolaevka",
-     "metaZh": "7–10 月 · 从叶利佐沃和尼古拉耶夫卡出发"
+     "metaZh": "7–10 月 · 从叶利佐沃和尼古拉耶夫卡出发",
+     "doable": true,
+     "months": [
+      7,
+      8,
+      9,
+      10
+     ]
     },
     {
      "id": "ac-hike",
@@ -604,11 +611,16 @@
      "tagEn": "summer",
      "tagZh": "夏季",
      "textRu": "Однодневные: Вачкажец с водопадами, Голубые озёра (15 км по тропе), Горелый и Мутновский. Многодневные: Налычево от одного до девяти дней, Толбачик на четыре-пять. Сезон — июль–сентябрь. Группа регистрируется в МЧС, в парки нужно разрешение; всё это — в разделе «Безопасность».",
-     "textEn": "Day hikes: Vachkazhets with its waterfalls, the Blue Lakes (15 km on the trail), Gorely and Mutnovsky. Multi-day: Nalychevo from one to nine days, Tolbachik for four or five. Season — July to September. Groups register with the rescue service and parks need a permit; see “Safety”.",
+     "textEn": "Day hikes: Vachkazhets with its waterfalls, the Blue Lakes (15 km on the trail), Gorely and Mutnovsky. Multi-day: Nalychevo from one to nine days, Tolbachik for four or five. Season — July to September. Groups register with the Russian Emergencies Ministry (EMERCOM) and parks need a permit; see “Safety”.",
      "textZh": "一日游：瓦奇卡热茨和它的瀑布、蓝湖（步道 15 公里）、戈列雷火山和穆特诺夫斯基火山。多日游：纳雷切沃一到九天，托尔巴奇克四五天。季节——7 月到 9 月。团队要在紧急情况部登记，进公园需要许可；这些都在“安全”栏目里。",
      "metaRu": "июль — сентябрь",
      "metaEn": "July — September",
-     "metaZh": "7–9 月"
+     "metaZh": "7–9 月",
+     "months": [
+      7,
+      8,
+      9
+     ]
     },
     {
      "id": "ac-sea",
@@ -618,12 +630,19 @@
      "tagRu": "лето",
      "tagEn": "summer",
      "tagZh": "夏季",
-     "textRu": "Из Авачинской бухты к скалам Три Брата, к острову Старичков с птичьими базарами — 11 видов морских птиц, по учёту 2008 года около 183 тысяч особей, в Вилючинскую, Тихую и Саранные бухты. Летом с воды видят косаток, горбатых китов, каланов, сивучей и котиков. Есть однодневные выходы и двухдневные с рыбалкой.",
-     "textEn": "From Avacha Bay to the Three Brothers rocks, to Starichkov Island with its bird colonies — 11 seabird species, about 183,000 birds by the 2008 count, into Vilyuchinskaya, Tikhaya and Sarannaya bays. In summer you can see orcas, humpbacks, sea otters, sea lions and fur seals. Day trips and two-day trips with fishing.",
-     "textZh": "从阿瓦恰湾出发去三兄弟岩、有海鸟聚集地的斯塔里奇科夫岛——11 种海鸟，据 2008 年统计约 18.3 万只，以及维柳钦斯卡亚湾、季哈亚湾和萨兰纳亚湾。夏天在海上能看到虎鲸、座头鲸、海獭、北海狮和海狗。有一日游，也有带钓鱼的两日游。",
+     "textRu": "Из Авачинской бухты к скалам Три Брата, к острову Старичков с птичьими базарами — 11 видов морских птиц, по учёту 2008 года около 183 тысяч особей, в Вилючинскую, Тихую и Саранные бухты. Летом с воды видят косаток, горбатых китов, каланов, сивучей и котиков. Есть однодневные выходы и двухдневные с рыбалкой. У морских млекопитающих держат дистанцию: 150 метров до косаток и 300 до китов; ближе — зона запрета, и в зоне осторожности рядом с животным не больше трёх лодок.",
+     "textEn": "From Avacha Bay to the Three Brothers rocks, to Starichkov Island with its bird colonies — 11 seabird species, about 183,000 birds by the 2008 count, into Vilyuchinskaya, Tikhaya and Sarannaya bays. In summer you can see orcas, humpbacks, sea otters, sea lions and fur seals. Day trips and two-day trips with fishing. Keep your distance from marine mammals: 150 metres from orcas and 300 from whales; closer in is a no-go zone, and no more than three boats may share the caution zone around an animal.",
+     "textZh": "从阿瓦恰湾出发去三兄弟岩、有海鸟聚集地的斯塔里奇科夫岛——11 种海鸟，据 2008 年统计约 18.3 万只，以及维柳钦斯卡亚湾、季哈亚湾和萨兰纳亚湾。夏天在海上能看到虎鲸、座头鲸、海獭、北海狮和海狗。有一日游，也有带钓鱼的两日游。与海洋哺乳动物保持距离：距虎鲸 150 米、距其他鲸类 300 米；更近是禁入区，警戒区内同一头鲸类附近不得超过三条船。",
      "metaRu": "лето · из Петропавловска",
      "metaEn": "summer · from Petropavlovsk",
-     "metaZh": "夏季 · 从彼得罗巴甫洛夫斯克出发"
+     "metaZh": "夏季 · 从彼得罗巴甫洛夫斯克出发",
+     "doable": true,
+     "months": [
+      6,
+      7,
+      8,
+      9
+     ]
     },
     {
      "id": "ac-raft",
@@ -633,13 +652,21 @@
      "tagRu": "лето",
      "tagEn": "summer",
      "tagZh": "夏季",
-     "textRu": "Быстрая (сплавы до 160 км), Опала, Пымта, Левая Авача, Левая Щапина — от спокойных рек для новичков в рафтах до порогов для подготовленных на каяках. С конца мая по октябрь; летом и осенью в реки идёт лосось, на берегах — медведи. В Эссо сплавляются по Быстрой Эссовской: больше сорока порогов на 66 километрах, старт от устья Уксичана прямо в посёлке, с июня по сентябрь.",
-     "textEn": "The Bystraya (floats of up to 160 km), Opala, Pymta, Levaya Avacha, Levaya Shchapina — from calm rivers for beginners in rafts to rapids for the experienced in kayaks. From late May to October; in summer and autumn salmon run up the rivers and bears wait on the banks. At Esso the run is down the Esso Bystraya: more than forty rapids over 66 kilometres, starting at the mouth of the Uksichan right in the village, from June to September.",
-     "textZh": "贝斯特拉亚河（漂流最长 160 公里）、奥帕拉河、佩姆塔河、左阿瓦恰河、左夏皮纳河——从适合新手坐橡皮艇的平缓河流，到适合有经验者划皮划艇的急流。5 月底到 10 月；夏秋两季鲑鱼溯河而上，熊守在岸边。在埃索，人们漂流埃索贝斯特拉亚河：66 公里上有四十多处急流，起点就在村里的乌克西昌河口，6 月至 9 月。",
+     "textRu": "Быстрая (сплавы до 160 км), Опала, Пымта, Левая Авача, Левая Щапина — от спокойных рек для новичков в рафтах до порогов для подготовленных на каяках. С конца мая по октябрь; летом и осенью в реки идёт лосось, на берегах — медведи. В Эссо сплавляются по Быстрой Эссовской: старт от устья Уксичана прямо в посёлке; однодневные туры проходят порожистый участок с тремя десятками препятствий, многодневные — все 66 километров реки с сорока с лишним порогами. Сезон у операторов — с июня по октябрь.",
+     "textEn": "The Bystraya (floats of up to 160 km), Opala, Pymta, Levaya Avacha, Levaya Shchapina — from calm rivers for beginners in rafts to rapids for the experienced in kayaks. From late May to October; in summer and autumn salmon run up the rivers and bears wait on the banks. At Esso the run is down the Esso Bystraya, starting at the mouth of the Uksichan right in the village; day trips cover the rapid-strewn stretch with some thirty obstacles, multi-day trips the whole 66 kilometres with forty-odd rapids. Operators run from June to October.",
+     "textZh": "贝斯特拉亚河（漂流最长 160 公里）、奥帕拉河、佩姆塔河、左阿瓦恰河、左夏皮纳河——从适合新手坐橡皮艇的平缓河流，到适合有经验者划皮划艇的急流。5 月底到 10 月；夏秋两季鲑鱼溯河而上，熊守在岸边。在埃索，人们漂流埃索贝斯特拉亚河，起点就在村里的乌克斯昌河口；一日游走的是约三十处险阻的急流河段，多日游则走完全程 66 公里、四十多处急流。各运营商的季节为 6 月至 10 月。",
      "metaRu": "конец мая — октябрь",
      "metaEn": "late May — October",
-     "metaZh": "5月底—10月",
-     "doable": true
+     "metaZh": "5 月底—10 月",
+     "doable": true,
+     "months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
     },
     {
      "id": "ac-fish",
@@ -654,7 +681,22 @@
      "textZh": "堪察加是世界上最主要的太平洋鲑鱼产卵地之一。河钓从 5 月中旬到 12 月初，海钓从阿瓦恰湾出发，冰钓从 12 月到 4 月。钓鲑鱼需要许可证；通行“钓了就放”的原则。",
      "metaRu": "лицензия на лосося",
      "metaEn": "salmon licence required",
-     "metaZh": "钓鲑鱼需要许可证"
+     "metaZh": "钓鲑鱼需要许可证",
+     "doable": true,
+     "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ]
     },
     {
      "id": "ac-surf",
@@ -664,13 +706,27 @@
      "tagRu": "круглый год",
      "tagEn": "all year",
      "tagZh": "全年",
-     "textRu": "Халактырский пляж — около 30 километров чёрного песка в получасе от города, волны круглый год. Новичкам — июль–сентябрь, когда вода прогревается до +15°. Зимой вода около нуля, воздух до −15°: только для опытных, в тёплом гидрокостюме. На пляже круглогодичный кемпинг со школой; для самых первых шагов есть SUP-прогулки по Авачинской бухте.",
-     "textEn": "Khalaktyrsky Beach — about 30 kilometres of black sand half an hour from the city, waves all year. Beginners come in July–September, when the water warms up to +15°. In winter the water is around zero and the air down to −15°: for the experienced only, in a warm wetsuit. The beach has a year-round camp with a school; for the very first steps there are SUP outings in Avacha Bay.",
-     "textZh": "哈拉克特尔海滩——离市区半小时、约 30 公里长的黑沙滩，全年有浪。新手 7–9 月来，这时水温回升到 +15 °C。冬天水温接近零度，气温低至 −15 °C：只适合有经验的人，要穿保暖冲浪湿衣。海滩上有全年开放的营地和冲浪学校；想先迈出第一步，可以在阿瓦恰湾玩桨板。",
+     "textRu": "Халактырский пляж — около 30 километров чёрного песка в получасе от города, волны круглый год. Новичкам — июль–сентябрь, когда вода прогревается до +15 °C. Зимой вода около нуля, воздух до −15 °C: только для опытных, в тёплом гидрокостюме. На пляже круглогодичный кемпинг со школой; для самых первых шагов есть SUP-прогулки по Авачинской бухте.",
+     "textEn": "Khalaktyrsky Beach — about 30 kilometres of black sand half an hour from the city, waves all year. Beginners come in July–September, when the water warms up to +15 °C. In winter the water is around zero and the air down to −15 °C: for the experienced only, in a warm wetsuit. The beach has a year-round camp with a school; for the very first steps there are SUP outings in Avacha Bay.",
+     "textZh": "哈拉克特尔海滩——离市区半小时、约 30 公里长的黑沙滩，全年有浪。新手 7–9 月来，这时水温回升到 15 °C。冬天水温接近零度，气温低至 −15 °C：只适合有经验的人，要穿保暖冲浪湿衣。海滩上有全年开放的营地和冲浪学校；想先迈出第一步，可以在阿瓦恰湾玩桨板。",
      "metaRu": "Халактырский пляж",
      "metaEn": "Khalaktyrsky Beach",
      "metaZh": "哈拉克特尔海滩",
-     "doable": true
+     "doable": true,
+     "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ]
     },
     {
      "id": "ac-ski",
@@ -685,7 +741,15 @@
      "textZh": "市区有“红山”和“基尔皮奇基”，叶利佐沃附近有“莫罗兹纳亚山”：雪道最长 3.5 公里，落差约 500 米。埃索和扎奥焦尔内也有滑雪基地。旺季是 1 月到 3 月。",
      "metaRu": "пик — январь — март",
      "metaEn": "peak January — March",
-     "metaZh": "旺季 1 月至 3 月"
+     "metaZh": "旺季 1 月至 3 月",
+     "doable": true,
+     "months": [
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
     },
     {
      "id": "ac-snow",
@@ -700,7 +764,15 @@
      "textZh": "一日游去戈列雷火山、穆特诺夫斯基火山和维柳钦斯基火山，去马亚奇内角、纳雷切沃，以及阿瓦恰火山和科里亚克火山之间的山口。需要驾照；装备由运营商提供，乘客坐在雪橇里。天气会取消行程——预订要留有余地。",
      "metaRu": "нужны водительские права",
      "metaEn": "driving licence required",
-     "metaZh": "需要驾照"
+     "metaZh": "需要驾照",
+     "doable": true,
+     "months": [
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
     },
     {
      "id": "ac-dogs",
@@ -715,7 +787,15 @@
      "textZh": "市郊的雪橇犬犬舍提供 2.5–4 小时的乘坐，线路 10–40 公里，教练骑雪地摩托在旁边跟随。10 岁以上的孩子可以和大人一起坐雪橇；只有经允许才能喂狗。很多狗都跑过“白令吉亚”雪橇赛：2024 年，赛道从埃索到乌斯季堪察茨克，全长 1425 公里。",
      "metaRu": "зима · питомники под Петропавловском",
      "metaEn": "winter · kennels near Petropavlovsk",
-     "metaZh": "冬季 · 彼得罗巴甫洛夫斯克郊外的犬舍"
+     "metaZh": "冬季 · 彼得罗巴甫洛夫斯克郊外的犬舍",
+     "doable": true,
+     "months": [
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
     },
     {
      "id": "ac-heliski",
@@ -727,10 +807,18 @@
      "tagZh": "冬季",
      "textRu": "Спуски с вулканов после заброски вертолётом: Корякский, Авачинский, Жупановский, Вилючинский, Ааг, Мутновский и Бакенинг. Только с опытом катания вне трасс, после лавинного инструктажа, с бипером и рюкзаком-подушкой.",
      "textEn": "Descents from volcanoes after a helicopter lift: Koryaksky, Avachinsky, Zhupanovsky, Vilyuchinsky, Aak (also spelled Aag), Mutnovsky and Bakening. Off-piste experience only, after an avalanche briefing, with a beacon and an airbag pack.",
-     "textZh": "乘直升机上山后从火山上滑下：科里亚克火山、阿瓦恰火山、茹帕诺夫斯基火山、维柳钦斯基火山、Aak 火山、穆特诺夫斯基火山和巴克宁格火山。只限有野雪经验、听过雪崩安全讲解、带着雪崩信标和安全气囊背包的人。",
+     "textZh": "乘直升机上山后从火山上滑下：科里亚克火山、阿瓦恰火山、茹帕诺夫斯基火山、维柳钦斯基火山、阿格火山、穆特诺夫斯基火山和巴克宁格火山。只限有野雪经验、听过雪崩安全讲解、带着雪崩信标和安全气囊背包的人。",
      "metaRu": "для опытных",
      "metaEn": "experienced riders only",
-     "metaZh": "仅限有经验者"
+     "metaZh": "仅限有经验者",
+     "doable": true,
+     "months": [
+      12,
+      1,
+      2,
+      3,
+      4
+     ]
     },
     {
      "id": "ac-operator",
@@ -741,16 +829,292 @@
      "tagEn": "tip",
      "tagZh": "建议",
      "textRu": "Реестр туроператоров и гидов ведёт краевой туристический портал visitkamchatka.ru — сверяйтесь с ним. Любой самостоятельный выход регистрируют в МЧС.",
-     "textEn": "The regional tourism portal visitkamchatka.ru keeps the register of tour operators and guides — check against it. Register any independent outing with the rescue service.",
+     "textEn": "The regional tourism portal visitkamchatka.ru keeps the register of tour operators and guides — check against it. Register any independent outing with the Russian Emergencies Ministry (EMERCOM).",
      "textZh": "边疆区旅游门户网站 visitkamchatka.ru 维护着旅行社和向导名录——请以它为准核对。任何自助出行都要在紧急情况部登记。",
      "metaRu": "",
-     "metaEn": ""
+     "metaEn": "",
+     "metaZh": ""
     }
    ],
    "sourceRu": "Чем заняться — visitkamchatka.ru",
    "sourceEn": "Things to do — visitkamchatka.ru",
    "sourceZh": "玩什么——visitkamchatka.ru",
    "url": "https://visitkamchatka.ru/activities/"
+  },
+  {
+   "id": "arrival",
+   "icon": "airplane.arrival",
+   "titleRu": "Из аэропорта",
+   "titleEn": "From the airport",
+   "titleZh": "从机场出发",
+   "leadRu": "Самолёт садится в Елизово, а не в Петропавловске-Камчатском. Номера маршрутов и время в пути — по данным аэропорта и краевого минтранса. Цен здесь нет: они меняются.",
+   "leadEn": "Planes land at Yelizovo, not in Petropavlovsk-Kamchatsky. Route numbers and travel times come from the airport and the regional transport ministry. No prices here: they change.",
+   "leadZh": "飞机降落在叶利佐沃，不在堪察加彼得罗巴甫洛夫斯克。线路编号和用时依据机场和边疆区交通部的公布。这里不写价格：它们会变。",
+   "sourceRu": "Аэропорт Елизово (ar-pkc.ru), портал «Общественный транспорт Камчатского края» (transport.kamgov.ru), администрация Паратунского сельского поселения",
+   "sourceEn": "Yelizovo Airport (ar-pkc.ru), Kamchatka public transport portal (transport.kamgov.ru), Paratunka rural settlement administration",
+   "sourceZh": "叶利佐沃机场（ar-pkc.ru）、堪察加边疆区公共交通门户（transport.kamgov.ru）、帕拉通卡乡行政机构",
+   "url": "https://ar-pkc.ru/how-to-get/to/bus/",
+   "items": [
+    {
+     "id": "ar-where",
+     "titleRu": "Аэропорт находится не в городе",
+     "titleEn": "The airport is not in the city",
+     "titleZh": "机场不在市区",
+     "tagRu": "где вы оказались",
+     "tagEn": "where you land",
+     "tagZh": "落地在哪儿",
+     "textRu": "Самолёты прилетают в аэропорт Елизово — это отдельный город рядом с Петропавловском-Камчатским. Адрес аэропорта: улица Звёздная, 14. Аэровокзал работает с 7:00 до 20:00, круглосуточно он не открыт.",
+     "textEn": "Flights arrive at Yelizovo Airport, in a separate town next to Petropavlovsk-Kamchatsky. The address is 14 Zvyozdnaya Street. The terminal is open from 7:00 to 20:00 and does not work around the clock.",
+     "textZh": "航班降落在叶利佐沃机场——那是紧邻堪察加彼得罗巴甫洛夫斯克的另一座城市。机场地址：星辰街 14 号。航站楼开放时间为 7:00 至 20:00，并非全天开放。",
+     "metaRu": "Елизово, ул. Звёздная, 14 · аэровокзал 7:00 — 20:00",
+     "metaEn": "Yelizovo, 14 Zvyozdnaya St · terminal 7:00 — 20:00",
+     "metaZh": "叶利佐沃，星辰街 14 号 · 航站楼 7:00—20:00"
+    },
+    {
+     "id": "ar-bus",
+     "titleRu": "Автобус до Петропавловска-Камчатского",
+     "titleEn": "Bus to Petropavlovsk-Kamchatsky",
+     "titleZh": "前往市区的公交",
+     "tagRu": "автобус",
+     "tagEn": "bus",
+     "tagZh": "公交",
+     "textRu": "От аэропорта в город идёт междугородний маршрут № 104, конечная — «Центральный рынок». Аэропорт даёт на него два времени в пути: 35–40 минут и 50–55 минут. Есть и маршрут № 102 до района «10 км» — 35–45 минут. До самого Елизова от аэропорта — пять минут.",
+     "textEn": "Intercity route 104 runs from the airport to the city and ends at the Central Market. The airport gives two travel times for it: 35–40 minutes and 50–55 minutes. Route 102 goes to the “10 km” district in 35–45 minutes. Yelizovo itself is five minutes away.",
+     "textZh": "城际 104 路从机场开往市区，终点为“中央市场”。机场给出两个用时：35—40 分钟和 50—55 分钟。另有 102 路开往“10 公里”街区，用时 35—45 分钟。到叶利佐沃市区只要五分钟。",
+     "metaRu": "№ 104 — Центральный рынок · № 102 — «10 км»",
+     "metaEn": "104 — Central Market · 102 — “10 km”",
+     "metaZh": "104 路—中央市场 · 102 路—“10 公里”"
+    },
+    {
+     "id": "ar-stops",
+     "titleRu": "Где садиться",
+     "titleEn": "Where to board",
+     "titleZh": "在哪儿上车",
+     "tagRu": "автобус",
+     "tagEn": "bus",
+     "tagZh": "公交",
+     "textRu": "Остановки — прямо у здания аэровокзала, рядом с парковкой; для автобусов там выделена отдельная полоса. Схема с остановками есть на сайте аэропорта в разделе «Парковка».",
+     "textEn": "The stops are right by the terminal building, next to the car park; buses have their own lane there. A map of the stops is on the airport site under “Parking”.",
+     "textZh": "车站就在航站楼旁、停车场边上，那里为公交设有专用车道。标有车站位置的平面图在机场网站的“停车场”栏目里。"
+    },
+    {
+     "id": "ar-often",
+     "titleRu": "Как часто ходят автобусы",
+     "titleEn": "How often buses run",
+     "titleZh": "发车间隔",
+     "tagRu": "автобус",
+     "tagEn": "bus",
+     "tagZh": "公交",
+     "textRu": "Утром маршрут № 104 отправляется каждые 5 минут, днём — каждые 10, вечером интервал растёт до 15 и 20 минут. Последние рейсы уходят около 22:00. Ночных автобусов в расписании нет, а аэровокзал в это время уже закрыт.",
+     "textEn": "In the morning route 104 leaves every 5 minutes, in the daytime every 10, and in the evening the gap grows to 15 and then 20 minutes. The last departures are around 22:00. There are no night buses in the timetable, and by then the terminal is closed.",
+     "textZh": "清晨 104 路每 5 分钟一班，白天每 10 分钟，傍晚间隔拉长到 15 分钟和 20 分钟。末班车约在 22:00。时刻表里没有夜班车，那时航站楼也已关闭。",
+     "metaRu": "06:22 — 22:00",
+     "metaEn": "06:22 — 22:00",
+     "metaZh": "06:22—22:00"
+    },
+    {
+     "id": "ar-car",
+     "titleRu": "Если вас встречают на машине",
+     "titleEn": "If someone meets you by car",
+     "titleZh": "如果有人开车来接",
+     "tagRu": "на машине",
+     "tagEn": "by car",
+     "tagZh": "自驾接送",
+     "textRu": "У терминала есть зона посадки и высадки — от неё до дверей аэровокзала около пяти минут пешком. Раздела о такси на официальном сайте аэропорта нет и списка перевозчиков тоже, поэтому о встрече договаривайтесь заранее сами.",
+     "textEn": "There is a drop-off and pick-up zone by the terminal, about a five-minute walk from the doors. The official airport site has no taxi section and no list of operators, so arrange your pick-up in advance yourself.",
+     "textZh": "航站楼旁设有上下客区，步行到门口约五分钟。机场官网没有出租车栏目，也没有承运人名单，因此请自行提前约好接送。"
+    },
+    {
+     "id": "ar-paratunka",
+     "titleRu": "До Паратунки прямого автобуса нет",
+     "titleEn": "No direct bus to Paratunka",
+     "titleZh": "没有直达帕拉通卡的班车",
+     "tagRu": "к источникам",
+     "tagEn": "to the hot springs",
+     "tagZh": "去温泉",
+     "textRu": "Паратунка — курортная зона с горячими источниками, и прямого рейса из аэропорта туда нет: слово «Паратунка» не встречается в расписаниях аэропорта ни разу. Нужна пересадка. Из Елизова до посёлка Термальный идёт маршрут № 110 от автостанции, из Петропавловска-Камчатского — маршрут № 111 от автостанции «10 км».",
+     "textEn": "Paratunka is a hot-spring resort area, and there is no direct service from the airport: the word “Paratunka” never appears in the airport timetables. You have to change. Route 110 runs from the Yelizovo bus station to the village of Termalny, and route 111 runs there from the “10 km” bus station in Petropavlovsk-Kamchatsky.",
+     "textZh": "帕拉通卡是有温泉的度假区，从机场没有直达车：机场时刻表里一次也没有出现“帕拉通卡”。需要换乘。从叶利佐沃长途汽车站有 110 路前往捷尔马利内村，从堪察加彼得罗巴甫洛夫斯克的“10 公里”汽车站有 111 路。",
+     "metaRu": "№ 110 от Елизова · № 111 от «10 км»",
+     "metaEn": "110 from Yelizovo · 111 from “10 km”",
+     "metaZh": "110 路（叶利佐沃）· 111 路（“10 公里”）"
+    },
+    {
+     "id": "ar-check",
+     "titleRu": "Расписание на Паратунку — 2021 года",
+     "titleEn": "The Paratunka timetable is from 2021",
+     "titleZh": "帕拉通卡的时刻表是 2021 年的",
+     "tagRu": "важно",
+     "tagEn": "worth knowing",
+     "tagZh": "要留意",
+     "textRu": "Расписание маршрутов № 110 и № 111 опубликовано администрацией посёлка с пометкой «по состоянию на 21.01.2021» — оно могло измениться. Краевой портал общественного транспорта сам предупреждает, что данные в системе бывают неполными. Уточняйте время на месте.",
+     "textEn": "The timetable for routes 110 and 111 was published by the village administration marked “as of 21 January 2021” and may have changed. The regional transport portal itself warns that data in the system can be incomplete. Check the times locally.",
+     "textZh": "110 路和 111 路的时刻表由乡行政机构发布，注明“截至 2021年1月21日”，可能已经变动。边疆区公共交通门户也提示，系统里的数据可能不全。请到当地再核实发车时间。"
+    },
+    {
+     "id": "ar-winter",
+     "titleRu": "Зимой закладывайте запас",
+     "titleEn": "Allow extra time in winter",
+     "titleZh": "冬天请留出余量",
+     "tagRu": "важно",
+     "tagEn": "worth knowing",
+     "tagZh": "要留意",
+     "textRu": "Отдельного зимнего расписания официальные источники не публикуют: рейсы делятся только на будни и выходные. При этом зимой на Камчатке случаются метели и дороги закрывают — на пересадку и дорогу до города закладывайте запас времени.",
+     "textEn": "Official sources publish no separate winter timetable: services are split only into weekdays and weekends. But snowstorms and road closures do happen here in winter, so allow extra time for the transfer and the drive into the city.",
+     "textZh": "官方没有单独的冬季时刻表，班次只分工作日和休息日。但堪察加冬天会有暴风雪，道路也会封闭——换乘和进城的时间请留出余量。"
+    }
+   ]
+  },
+  {
+   "id": "fees",
+   "icon": "rublesign.circle",
+   "titleRu": "Что платное",
+   "titleEn": "What you pay for",
+   "titleZh": "什么要花钱",
+   "leadRu": "Не «вход в природу», а право пребывания, содержание троп и сопровождение. Сумм здесь нет намеренно: они меняются каждый год, а приложение работает офлайн. Здесь — за что берут плату и что нужно оформить заранее.",
+   "leadEn": "Not an “entry fee for nature” but the right to stay, the upkeep of trails and the guiding. There are deliberately no amounts here: they change every year and the app works offline. What follows is what is charged for and what to arrange in advance.",
+   "leadZh": "花的不是“进自然的门票”，而是停留许可、步道维护和陪同。这里有意不写金额：它们每年都变，而本应用离线工作。下面说的是为什么收费、哪些要提前办。",
+   "sourceRu": "Природный парк «Вулканы Камчатки» (vulcanikamchatki.ru), Кроноцкий заповедник (kronoki.ru), приказ ФСБ России № 473 о пограничной зоне, решения Паратунского сельского поселения",
+   "sourceEn": "“Volcanoes of Kamchatka” nature park (vulcanikamchatki.ru), Kronotsky Reserve (kronoki.ru), FSB order 473 on the border zone, decisions of the Paratunka rural settlement",
+   "sourceZh": "“堪察加火山”自然公园（vulcanikamchatki.ru）、克罗诺基自然保护区（kronoki.ru）、俄罗斯联邦安全局第 473 号关于边境管制区的命令、帕拉通卡乡的决议",
+   "url": "https://vulcanikamchatki.ru/v_pomow_gostyu/usloviya_poseweniya/",
+   "items": [
+    {
+     "id": "fe-why",
+     "titleRu": "Почему за природу берут плату",
+     "titleEn": "Why nature costs money here",
+     "titleZh": "为什么亲近自然要付费",
+     "tagRu": "как это устроено",
+     "tagEn": "how it works",
+     "tagZh": "规则怎么定的",
+     "textRu": "Почти все известные места Камчатки — охраняемые территории со своими правилами. Плата идёт не за «вход в природу», а за право пребывания, за содержание троп, мостов и домиков и за сопровождение. Суммы меняются каждый год — уточняйте перед поездкой.",
+     "textEn": "Almost every well-known place in Kamchatka is a protected area with its own rules. The payment is not for “entering nature” but for the right to stay, for the upkeep of trails, bridges and huts, and for guiding. Amounts change every year — check before you travel.",
+     "textZh": "堪察加几乎所有出名的地方都是保护地，各有各的规定。收的不是“进自然的门票”，而是停留许可、步道桥梁小屋的维护和陪同的费用。金额每年都变——出行前请再核实。"
+    },
+    {
+     "id": "fe-parks",
+     "titleRu": "Природные парки: нужно разрешение",
+     "titleEn": "Nature parks: you need a permit",
+     "titleZh": "自然公园：需要许可证",
+     "tagRu": "природные парки",
+     "tagEn": "nature parks",
+     "tagZh": "自然公园",
+     "textRu": "Налычево, Быстринский, Ключевской, Южно-Камчатский и Вилючинский входят в парк «Вулканы Камчатки». Разрешение оформляют заранее и носят с собой. Оформить можно в офисе парка в Елизове, в информационном центре в Эссо или дистанционно через краевой портал госуслуг.",
+     "textEn": "Nalychevo, Bystrinsky, Klyuchevskoy, Yuzhno-Kamchatsky and Vilyuchinsky belong to the “Volcanoes of Kamchatka” park. The permit is arranged in advance and carried with you. You can get it at the park office in Yelizovo, at the information centre in Esso, or remotely through the regional public services portal.",
+     "textZh": "纳雷切沃、贝斯特林斯基、克柳切夫、南堪察加和维柳钦斯基同属“堪察加火山”自然公园。许可证要提前办好并随身携带。可以在叶利佐沃的公园办公室、埃索的信息中心办理，也可以通过边疆区政务服务门户在线办理。"
+    },
+    {
+     "id": "fe-avacha",
+     "titleRu": "Авачинский перевал — исключение",
+     "titleEn": "Avacha Pass is the exception",
+     "titleZh": "阿瓦恰山口是例外",
+     "tagRu": "природные парки",
+     "tagEn": "nature parks",
+     "tagZh": "自然公园",
+     "textRu": "Авачинский перевал объявлен зоной свободного посещения: разрешение туда оформлять не нужно. Это единственное исключение, которое парк называет прямо.",
+     "textEn": "Avacha Pass is declared a zone of free access: no permit is needed there. It is the only exception the park states outright.",
+     "textZh": "阿瓦恰山口被划为自由进入区：不需要办许可证。这是公园明确点名的唯一例外。"
+    },
+    {
+     "id": "fe-route",
+     "titleRu": "Не за каждый маршрут берут плату",
+     "titleEn": "Not every route is charged",
+     "titleZh": "并非每条线路都收费",
+     "tagRu": "природные парки",
+     "tagEn": "nature parks",
+     "tagZh": "自然公园",
+     "textRu": "Плата в парках называется платой за пользование рекреационным благоустройством. Если маршрут транзитный и благоустройством вы не пользуетесь, платы нет, а разрешение формируется автоматически. Отдельная плата именно за посещение территории введена в Южно-Камчатском парке.",
+     "textEn": "In the parks the charge is for the use of recreational facilities. If your route is a transit one and you do not use them, there is no fee and the permit is issued automatically. A separate charge for visiting the territory itself applies in the Yuzhno-Kamchatsky park.",
+     "textZh": "公园收的费叫“游憩设施使用费”。如果您走的是过境线路、不使用这些设施，就不收费，许可证会自动生成。专门针对进入该保护地的费用只在南堪察加公园设有。"
+    },
+    {
+     "id": "fe-extra",
+     "titleRu": "За что ещё платят в парках",
+     "titleEn": "What else you pay for in the parks",
+     "titleZh": "公园里还有哪些要单付",
+     "tagRu": "природные парки",
+     "tagEn": "nature parks",
+     "tagZh": "自然公园",
+     "textRu": "Отдельно оплачиваются ночлег, кухня и настильная площадка, баня, дрова, экскурсионные программы, визит-центры, сопровождение сотрудником парка и посадка вертолёта. Платить нужно заранее, до выезда на маршрут; оплата на кордоне допускается только как исключение.",
+     "textEn": "Overnight stays, the kitchen and decking platform, the bathhouse, firewood, guided programmes, visitor centres, being accompanied by a ranger and helicopter landings are all paid for separately. Payment is made in advance, before you set out; paying at a ranger station is allowed only as an exception.",
+     "textZh": "住宿、厨房和木栈平台、浴室、柴火、导览项目、访客中心、由公园工作人员陪同、直升机降落，都要另行付费。费用须在出发前预付；在护林点缴费只作为例外。"
+    },
+    {
+     "id": "fe-reserves",
+     "titleRu": "Заповедники: платят через туроператора",
+     "titleEn": "Reserves: you pay through a tour operator",
+     "titleZh": "自然保护区：通过旅行社付费",
+     "tagRu": "заповедники",
+     "tagEn": "reserves",
+     "tagZh": "自然保护区",
+     "textRu": "Кроноцкий заповедник, Корякский заповедник и Южно-Камчатский заказник — федеральные территории, и плата за посещение установлена постановлением Правительства России. Сам заповедник туров не продаёт: он даёт право пребывания и экскурсионное сопровождение, а их стоимость уже внутри турпакета.",
+     "textEn": "The Kronotsky Reserve, the Koryaksky Reserve and the Yuzhno-Kamchatsky sanctuary are federal territories, and the visiting fee is set by a decree of the Russian Government. The reserve does not sell tours: it grants the right of stay and guided support, and their cost is already inside the tour package.",
+     "textZh": "克罗诺基自然保护区、科里亚克自然保护区和南堪察加禁猎区属于联邦保护地，参观费由俄罗斯联邦政府决议规定。保护区本身不卖旅游产品：它给的是停留权和陪同讲解，这部分费用已经包含在旅行社的套餐里。"
+    },
+    {
+     "id": "fe-application",
+     "titleRu": "Заявка — это ещё не разрешение",
+     "titleEn": "An application is not yet a permit",
+     "titleZh": "递交申请不等于拿到许可",
+     "tagRu": "заповедники",
+     "tagEn": "reserves",
+     "tagZh": "自然保护区",
+     "textRu": "Заповедник предупреждает отдельно: поданная заявка не означает, что разрешение получено, — она нужна, чтобы вас включили в график. Находиться на заповедной территории можно только в сопровождении сотрудника.",
+     "textEn": "The reserve warns separately: a submitted application does not mean the permit has been granted — it exists to put you on the schedule. You may be on reserve land only accompanied by a member of staff.",
+     "textZh": "保护区特别提示：递交了申请并不等于已获许可——申请只是把您排进日程。在保护区内，必须有工作人员陪同才能停留。"
+    },
+    {
+     "id": "fe-quota",
+     "titleRu": "Мест на маршрутах ограниченное число",
+     "titleEn": "Places on the routes are limited",
+     "titleZh": "线路名额有限",
+     "tagRu": "заповедники",
+     "tagEn": "reserves",
+     "tagZh": "自然保护区",
+     "textRu": "Сколько людей примет маршрут, каждый год определяют учёные. В мае и июне часть маршрутов сокращают или закрывают, чтобы не беспокоить зверей и птиц. Планируйте поездку заранее.",
+     "textEn": "How many people a route can take is decided by scientists each year. In May and June some routes are cut back or closed so as not to disturb animals and birds. Plan your trip early.",
+     "textZh": "每条线路每年能接待多少人，由科研人员确定。5—6 月部分线路会减少名额或关闭，以免惊扰兽类和鸟类。请及早安排行程。"
+    },
+    {
+     "id": "fe-border",
+     "titleRu": "Пограничная зона: это острова",
+     "titleEn": "The border zone: it means the islands",
+     "titleZh": "边境管制区：指的是岛屿",
+     "tagRu": "пропуска и согласования",
+     "tagEn": "passes and approvals",
+     "tagZh": "通行证与审批",
+     "textRu": "На Камчатке пограничная зона установлена в пределах островов, а остров Беринга из неё исключён. Для въезда оформляется пропуск: заявление подаётся через портал госуслуг или по электронной почте пограничного органа. Россиянам его рассматривают до 15 рабочих дней, иностранцам — до 30.",
+     "textEn": "In Kamchatka the border zone is set within the islands, and Bering Island is excluded from it. Entry needs a pass: the application goes through the public services portal or by email to the border authority. It takes up to 15 working days for Russian citizens and up to 30 for foreigners.",
+     "textZh": "在堪察加，边境管制区设在各岛屿范围内，白令岛不在其中。进入需要边境通行证：申请通过政务服务门户提交，或发到边防机关的电子邮箱。俄罗斯公民最长 15 个工作日，外国公民最长 30 个工作日。",
+     "metaRu": "приказ ФСБ России № 473",
+     "metaEn": "FSB order 473",
+     "metaZh": "俄罗斯联邦安全局第 473 号命令"
+    },
+    {
+     "id": "fe-approvals",
+     "titleRu": "Отдельные согласования",
+     "titleEn": "Separate approvals",
+     "titleZh": "另需单独审批",
+     "tagRu": "пропуска и согласования",
+     "tagEn": "passes and approvals",
+     "tagZh": "通行证与审批",
+     "textRu": "Для посёлка Ключи в Ключевском парке нужно заблаговременное согласование ФСБ. То же — для иностранных туристов, если маршрут в Южно-Камчатском парке идёт через Мутновскую ГеоТЭС. Коммерческая съёмка и полёты дронов над парками — только с разрешения дирекции.",
+     "textEn": "The village of Klyuchi in the Klyuchevskoy park needs advance FSB approval. So does a route through the Mutnovsky geothermal plant in the Yuzhno-Kamchatsky park for foreign visitors. Commercial filming and drone flights over the parks need the directorate's permission.",
+     "textZh": "前往克柳切夫自然公园内的克柳奇村，须事先取得联邦安全局批准。外国游客若在南堪察加公园的线路经过穆特诺夫斯基地热电站，同样需要批准。在公园上空的商业拍摄和无人机飞行，须经公园管理局许可。"
+    },
+    {
+     "id": "fe-tax",
+     "titleRu": "Туристический налог в Паратунке",
+     "titleEn": "The tourist tax in Paratunka",
+     "titleZh": "帕拉通卡的旅游税",
+     "tagRu": "пропуска и согласования",
+     "tagEn": "passes and approvals",
+     "tagZh": "通行证与审批",
+     "textRu": "В Паратунском поселении действует туристический налог. Платит его не турист напрямую, а гостиница или база отдыха, поэтому он оказывается внутри стоимости проживания. Налог вводится решением местных депутатов на каждый год отдельно.",
+     "textEn": "A tourist tax applies in the Paratunka settlement. It is paid not by the visitor directly but by the hotel or holiday base, so it ends up inside the price of the stay. The tax is introduced by a decision of the local council for each year separately.",
+     "textZh": "帕拉通卡乡征收旅游税。它不由游客直接缴纳，而由酒店或度假基地缴纳，因此包含在住宿费里。这项税由当地议员每年单独作出决议开征。"
+    }
+   ]
   }
  ]
 }
