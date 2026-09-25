@@ -1,8 +1,8 @@
 {
- "version": 1,
+ "version": 5,
  "note": "Факты сверены с открытыми источниками. Порядок доступа и разрешения проверены 12.09.2026 — они меняются, перед поездкой уточняйте у дирекции парка или заповедника.",
- "checked": "12.09.2026",
- "count": 13,
+ "checked": "25.09.2026",
+ "count": 16,
  "items": [
   {
    "id": "ds-geysers",
@@ -26,7 +26,7 @@
    "seasonZh": "7–9 月（春季和初夏有限制）",
    "textRu": "Одно из крупнейших гейзерных полей мира и одно из двух в Евразии — второе в Исландии. Гейзеры, горячие источники, грязевые котлы и водопады — на шести квадратных километрах каньона реки Гейзерной.\n\nДолину нашли поздно. 14 апреля 1941 года геолог Татьяна Устинова и ительменский проводник Анисифор Крупенин, искавшие, откуда течёт тёплая вода из кальдеры Узона, увидели первый гейзер; саму долину они нашли в июле того же года.\n\n**Долина меняется на глазах.** 3 июня 2007 года сошёл оползень: он засыпал около двух третей долины и перегородил реку. В сентябре 2013 года сель размыл часть завала, и гейзеров стало больше. 4 января 2014 года сошёл новый оползень — и рельеф снова изменился.",
    "textEn": "One of the largest geyser fields in the world and one of two in Eurasia — the other is in Iceland. Geysers, hot springs, mud pots and waterfalls fill six square kilometres of the Geysernaya River canyon.\n\nThe valley was found late. On 14 April 1941 geologist Tatyana Ustinova and her Itelmen guide Anisifor Krupenin, looking for the source of the warm water flowing out of Uzon caldera, saw the first geyser; the valley itself they found in July of that year.\n\n**The valley changes before your eyes.** On 3 June 2007 a landslide buried about two thirds of the valley and dammed the river. In September 2013 a mudflow cut through part of the debris, and the number of geysers grew. On 4 January 2014 a new landslide came down — and the landscape changed again.",
-   "textZh": "世界上最大的间歇泉区之一，也是欧亚大陆仅有的两处间歇泉区之一——另一处在冰岛。间歇泉、温泉、泥浆池和瀑布，分布在盖泽尔纳亚河峡谷六平方公里的范围内。\n\n这个山谷被发现得很晚。1941 年 4 月 14 日，地质学家塔季扬娜·乌斯季诺娃和伊捷尔缅向导阿尼西福尔·克鲁佩宁在寻找从乌宗破火山口流出的温水源头时，看到了第一个间歇泉；山谷本身是他们在同年 7 月找到的。\n\n**山谷在眼前变化。**2007 年 6 月 3 日发生滑坡：掩埋了约三分之二的山谷，堵住了河流。2013 年 9 月，泥石流冲开了部分堆积物，间歇泉变多了。2014 年 1 月 4 日又发生一次滑坡——地貌再次改变。",
+   "textZh": "世界上最大的间歇泉区之一，也是欧亚大陆仅有的两处间歇泉区之一——另一处在冰岛。间歇泉、温泉、泥浆池和瀑布，分布在盖泽尔纳亚河峡谷六平方公里的范围内。\n\n这个山谷被发现得很晚。1941年4月14日，地质学家塔季扬娜·乌斯季诺娃和伊捷尔缅向导阿尼西福尔·克鲁佩宁在寻找从乌宗破火山口流出的温水源头时，看到了第一个间歇泉；山谷本身是他们在同年 7 月找到的。\n\n**山谷在眼前变化。**2007年6月3日发生滑坡：掩埋了约三分之二的山谷，堵住了河流。2013年9月，泥石流冲开了部分堆积物，间歇泉变多了。2014年1月4日又发生一次滑坡——地貌再次改变。",
    "factsRu": [
     "Первый гейзер увидели 14 апреля 1941 года, саму долину нашли в июле того же года.",
     "Оползень 2007 года засыпал около двух третей долины.",
@@ -38,7 +38,7 @@
     "Named one of the Seven Wonders of Russia in 2008."
    ],
    "factsZh": [
-    "第一个间歇泉发现于 1941 年 4 月 14 日，山谷本身在同年 7 月才被找到。",
+    "第一个间歇泉发现于 1941年4月14日，山谷本身在同年 7 月才被找到。",
     "2007 年的滑坡掩埋了约三分之二的山谷。",
     "2008 年被评为“俄罗斯七大奇迹”之一。"
    ],
@@ -112,9 +112,9 @@
    "kindZh": "禁猎区",
    "lat": 51.45,
    "lon": 157.12,
-   "distanceKm": 200,
+   "distanceKm": 206,
    "accessRu": "Вертолётом или на вездеходе с ночёвкой. Требуется сопровождение.",
-   "accessEn": "By helicopter or all-terrain vehicle, with a guide.",
+   "accessEn": "By helicopter, or by all-terrain vehicle with an overnight stay. A guide is required.",
    "accessZh": "乘直升机，或乘全地形车并在当地过夜。需要有人陪同。",
    "permitRu": "Южно-Камчатский заказник, по заявке.",
    "permitEn": "South Kamchatka Sanctuary, by application.",
@@ -135,7 +135,7 @@
     "Sockeye come to spawn every year — from hundreds of thousands to six million fish.",
     "In late summer more than 200 bears gather at the lake.",
     "316 m deep, 77 km² in area.",
-    "The island Heart of Alaid is the hero of a Kuril legend."
+    "The island Heart of Alaid is the hero of a legend of the Kuril people."
    ],
    "factsZh": [
     "每年都有红鲑来这里产卵——从几十万条到 600 万条不等。",
@@ -165,7 +165,7 @@
    "lat": 53.5083,
    "lon": 158.7639,
    "coordSource": "Wikidata Q4312697 (Налычевские горячие источники); OSM node/5063140046 (проверено 16.09.2026)",
-   "distanceKm": 60,
+   "distanceKm": 52,
    "accessRu": "Пешком — 50 километров тропы от села Пиначево, два-три дня. Или вертолётом, или на вездеходе.",
    "accessEn": "On foot — a 50 km trail from Pinachevo, two or three days — or by helicopter or all-terrain vehicle.",
    "accessZh": "步行——从皮纳切沃村出发走 50 公里小路，需要两三天。也可乘直升机或全地形车。",
@@ -206,9 +206,9 @@
   },
   {
    "id": "ds-mutnovsky",
-   "nameRu": "Мутновский и Дачные источники",
-   "nameEn": "Mutnovsky and the Dachny springs",
-   "nameZh": "穆特诺夫斯基火山与达奇温泉",
+   "nameRu": "Мутновский",
+   "nameEn": "Mutnovsky",
+   "nameZh": "穆特诺夫斯基火山",
    "kindRu": "природный парк",
    "kindEn": "nature park",
    "kindZh": "自然公园",
@@ -216,7 +216,7 @@
    "lon": 158.195,
    "distanceKm": 70,
    "accessRu": "На вездеходе от города, летом — за день. Дорога плохая.",
-   "accessEn": "By all-terrain vehicle from the city, a day trip in summer.",
+   "accessEn": "By all-terrain vehicle from the city, a day trip in summer. The road is rough.",
    "accessZh": "从市区乘全地形车，夏天一天往返。路况很差。",
    "permitRu": "Территория входит в Южно-Камчатский природный парк — нужно разрешение парка, для приезжих платно.",
    "permitEn": "The area is part of the South Kamchatka Nature Park — a park permit is required, paid for visitors from outside the region.",
@@ -226,7 +226,7 @@
    "seasonZh": "7–9 月",
    "textRu": "Один из самых доступных действующих вулканов: около 70 километров от города по прямой. К кратеру поднимаются за один долгий день — по паспорту маршрута 10 часов; без специальной подготовки паспорт этот маршрут не рекомендует.\n\nМутновский в основном дышит газом — его активность выражена фумаролами, но он не спит: пепловые выбросы были 3 июля 2013 года и 2 июля 2026 года. В 2018-м в активном кратере обнаружили озеро.\n\nРядом Дачные источники, которые называют Малой долиной гейзеров. Настоящих гейзеров там почти нет: горячий газ проходит сквозь холодную воду ручья — и получается похоже.",
    "textEn": "One of the most accessible active volcanoes: about 70 kilometres from the city in a straight line. The crater takes one long day — 10 hours by the route passport, and the passport does not recommend the route without special training.\n\nMutnovsky mostly breathes gas — its activity shows as fumaroles — but it is not asleep: there were ash explosions on 3 July 2013 and 2 July 2026. In 2018 a lake was found in the active crater.\n\nNearby are the Dachny springs, called the Little Valley of Geysers. There are hardly any real geysers there: hot gas passes through the cold water of a stream — and the effect looks similar.",
-   "textZh": "最容易到达的活火山之一：距市区直线约 70 公里。登上火山口要走漫长的一整天——按线路护照需要 10 小时；没有专门训练，护照不建议走这条线路。\n\n穆特诺夫斯基火山主要是在“呼气”——它的活动表现为喷气孔，但它并没有沉睡：2013 年 7 月 3 日和 2026 年 7 月 2 日都曾喷出火山灰。2018 年，在活火山口里发现了一个湖。\n\n附近是达奇温泉，人称“小间歇泉谷”。其实那里几乎没有真正的间歇泉：热气穿过溪流的冷水——看起来很像而已。",
+   "textZh": "最容易到达的活火山之一：距市区直线约 70 公里。登上火山口要走漫长的一整天——按线路护照需要 10 小时；没有专门训练，护照不建议走这条线路。\n\n穆特诺夫斯基火山主要是在“呼气”——它的活动表现为喷气孔，但它并没有沉睡：2013年7月3日和 2026年7月2日都曾喷出火山灰。2018 年，在活火山口里发现了一个湖。\n\n附近是达奇温泉，人称“小间歇泉谷”。其实那里几乎没有真正的间歇泉：热气穿过溪流的冷水——看起来很像而已。",
    "factsRu": [
     "Последний пепловый выброс — 2 июля 2026 года.",
     "В 2018 году в активном кратере нашли озеро.",
@@ -238,7 +238,7 @@
     "The Mutnovskaya geothermal power station works nearby."
    ],
    "factsZh": [
-    "最近一次喷出火山灰：2026 年 7 月 2 日。",
+    "最近一次喷出火山灰：2026年7月2日。",
     "2018 年在活火山口里发现了一个湖。",
     "附近有穆特诺夫斯基地热电站在运行。"
    ],
@@ -370,7 +370,7 @@
    "lat": 55.6452,
    "lon": 160.2683,
    "coordSource": "OSM node/4316411191 «Мертвый лес» (проверено 16.09.2026)",
-   "distanceKm": 330,
+   "distanceKm": 308,
    "accessRu": "На вездеходе от Козыревска, обычно с ночёвкой.",
    "accessEn": "By all-terrain vehicle from Kozyrevsk, usually overnight.",
    "accessZh": "从科济列夫斯克乘全地形车前往，通常要过夜。",
@@ -430,21 +430,21 @@
    "seasonRu": "Лето и начало осени, пока держится дорога",
    "seasonEn": "Summer and early autumn, while the track is passable",
    "seasonZh": "夏季到初秋，道路尚可通行时",
-   "textRu": "Тундровое плато у сопки Копыто в природном парке «Ключевской». Отсюда видно сразу несколько вулканов Ключевской группы: Ключевскую сопку, Камень, Безымянный, Толбачик и Ушковский. Название неофициальное — так место зовут путешественники и туроператоры; на карте OpenStreetMap здесь подписана смотровая точка «Долина Великанов».\n\nЛагерь ставят у сопки Копыто (около 820 метров). От лагеря ходят к долине реки Студёной, Бараньим скалам и поляне эдельвейсов. Место далёкое: сначала день дороги до Козыревска, потом несколько часов на вахтовке.",
-   "textEn": "A tundra plateau by Mount Kopyto in Klyuchevskoy Nature Park. Several volcanoes of the Klyuchevskaya group are visible from here at once: Klyuchevskaya Sopka, Kamen, Bezymianny, Tolbachik and Ushkovsky. The name is unofficial — travellers and tour operators use it; on the OpenStreetMap map a viewpoint here is labelled “Valley of the Giants”.\n\nCamp is set up by Mount Kopyto (about 820 metres). From the camp people walk to the Studyonaya river valley, the Sheep Rocks and the edelweiss meadow. The place is remote: a day on the road to Kozyrevsk first, then several hours by off-road truck.",
-   "textZh": "克柳切夫自然公园内科佩托山旁的苔原高地。从这里可以同时望见克柳切夫群的几座火山：克柳切夫火山、卡缅火山、别济米扬内火山、托尔巴奇克火山和乌什科夫火山。这个名字并非正式地名——旅行者和旅行社这样称呼它；在 OpenStreetMap 地图上，这里标着一处名为“巨人谷”的观景点。\n\n营地设在科佩托山旁（海拔约 820 米）。人们从营地步行前往斯图焦纳亚河谷、“羊岩”和雪绒花草地。这里很偏远：先要走一天路到科济列夫斯克，再乘越野卡车几个小时。",
+   "textRu": "Тундровое плато в районе сопки Копыто в природном парке «Ключевской». Отсюда видно сразу несколько вулканов Ключевской группы: Ключевскую сопку, Камень, Безымянный, Толбачик и Ушковский. Название неофициальное — так место зовут путешественники и туроператоры; на карте OpenStreetMap здесь подписана смотровая точка «Долина Великанов».\n\nЛагерь-стоянка «Копыто» стоит в нескольких километрах от самой сопки Копыто (около 820 метров). От лагеря ходят к долине реки Студёной, Бараньим скалам и поляне эдельвейсов. Место далёкое: сначала день дороги до Козыревска, потом несколько часов на вахтовке.",
+   "textEn": "A tundra plateau in the Mount Kopyto area in Klyuchevskoy Nature Park. Several volcanoes of the Klyuchevskaya group are visible from here at once: Klyuchevskaya Sopka, Kamen, Bezymianny, Tolbachik and Ushkovsky. The name is unofficial — travellers and tour operators use it; on the OpenStreetMap map a viewpoint here is labelled “Valley of the Giants”.\n\nThe Kopyto camp lies a few kilometres from the summit of Mount Kopyto itself (about 820 metres). From the camp people walk to the Studyonaya river valley, the Sheep Rocks and the edelweiss meadow. The place is remote: a day on the road to Kozyrevsk first, then several hours by off-road truck.",
+   "textZh": "克柳切夫自然公园内科佩托山一带的苔原高地。从这里可以同时望见克柳切夫火山群的几座火山：克柳切夫火山、卡梅尼火山、别济米扬内火山、托尔巴奇克火山和乌什科夫火山。这个名字并非正式地名——旅行者和旅行社这样称呼它；在 OpenStreetMap 地图上，这里标着一处名为“巨人谷”的观景点。\n\n“科佩托”营地距科佩托山顶（海拔约 820 米）有几公里。人们从营地步行前往斯图焦纳亚河谷、“羊岩”和雪绒花草地。这里很偏远：先要走一天路到科济列夫斯克，再乘越野卡车几个小时。",
    "factsRu": [
-    "Долиной великанов зовут тундру у сопки Копыто — оттуда видно вулканы Ключевской группы.",
+    "Долиной великанов зовут тундру в районе сопки Копыто — оттуда видно вулканы Ключевской группы.",
     "Сопка Копыто — около 820 метров.",
     "Последние 3–4 часа пути — на вахтовке по лесной дороге."
    ],
    "factsEn": [
-    "The Valley of the Giants is the tundra by Mount Kopyto — the Klyuchevskaya group volcanoes are visible from there.",
+    "The Valley of the Giants is the tundra in the Mount Kopyto area — the Klyuchevskaya group volcanoes are visible from there.",
     "Mount Kopyto is about 820 metres high.",
     "The last 3–4 hours of the way are by off-road truck along a forest track."
    ],
    "factsZh": [
-    "“巨人谷”指的是科佩托山旁的苔原——从那里能望见克柳切夫群的火山。",
+    "“巨人谷”指的是科佩托山一带的苔原——从那里能望见克柳切夫火山群的火山。",
     "科佩托山海拔约 820 米。",
     "最后 3–4 小时要乘越野卡车沿林间土路前往。"
    ],
@@ -573,7 +573,7 @@
    "kindZh": "瀑布",
    "lat": 52.717,
    "lon": 158.233,
-   "distanceKm": 40,
+   "distanceKm": 46,
    "accessRu": "Летом — на внедорожнике по дороге на Мутновский и полчаса пешком; зимой — на снегоходах. Часто совмещают с Вилючинским перевалом и Горелым.",
    "accessEn": "In summer by 4×4 along the Mutnovsky road and half an hour on foot; in winter by snowmobile. Often combined with the Vilyuchinsky pass and Gorely.",
    "accessZh": "夏天乘越野车沿去穆特诺夫斯基火山的路前往，再步行半小时；冬天乘雪地摩托。常与维柳钦斯基山口和戈列雷火山一起游览。",
@@ -583,9 +583,9 @@
    "seasonRu": "Июль — сентябрь, зимой на снегоходе",
    "seasonEn": "July — September, by snowmobile in winter",
    "seasonZh": "7–9 月，冬天乘雪地摩托",
-   "textRu": "Сорокаметровый водопад на северо-западном склоне Вилючинского вулкана, примерно в 40 километрах от города по прямой. Ручей рождается из тающего ледника на склоне и падает со скальной стены, а внизу тут же прячется в снежнике, который не тает всё лето.\n\n**Осторожно у стены.** Зимой водопад замерзает в голубую ледяную колонну — красиво, но опасно: в январе 2021 года при обрушении ледяной глыбы погиб человек, несколько пострадали. Не подходите под свод и не заходите в грот.",
-   "textEn": "A forty-metre waterfall on the north-western slope of Vilyuchinsky volcano, about 40 km from the city as the crow flies. The stream is born from a melting glacier on the slope, drops over a rock wall and immediately hides in a snowfield below that never melts all summer.\n\n**Careful at the wall.** In winter the waterfall freezes into a blue column of ice — beautiful but dangerous: in January 2021 a falling block of ice killed one person and injured several. Don’t stand under the overhang or enter the grotto.",
-   "textZh": "维柳钦斯基火山西北坡上一道四十米高的瀑布，距市区直线约 40 公里。溪流源自山坡上正在融化的冰川，从岩壁上落下，随即钻进下方一整个夏天都不化的积雪里。\n\n**岩壁下要小心。**冬天瀑布冻成一根蓝色的冰柱——很美，但很危险：2021 年 1 月，一块坠落的冰块砸死一人、砸伤数人。不要站到岩檐下，也不要进入洞穴。",
+   "textRu": "Сорокаметровый водопад на северо-западном склоне Вилючинского вулкана, примерно в 46 километрах от города по прямой. Ручей рождается из тающего ледника на склоне и падает со скальной стены, а внизу тут же прячется в снежнике, который не тает всё лето.\n\n**Осторожно у стены.** Зимой водопад замерзает в голубую ледяную колонну — красиво, но опасно: в январе 2021 года при обрушении ледяной глыбы погиб человек, несколько пострадали. Не подходите под свод и не заходите в грот.",
+   "textEn": "A forty-metre waterfall on the north-western slope of Vilyuchinsky volcano, about 46 km from the city as the crow flies. The stream is born from a melting glacier on the slope, drops over a rock wall and immediately hides in a snowfield below that never melts all summer.\n\n**Careful at the wall.** In winter the waterfall freezes into a blue column of ice — beautiful but dangerous: in January 2021 a falling block of ice killed one person and injured several. Don’t stand under the overhang or enter the grotto.",
+   "textZh": "维柳钦斯基火山西北坡上一道四十米高的瀑布，距市区直线约 46 公里。溪流源自山坡上正在融化的冰川，从岩壁上落下，随即钻进下方一整个夏天都不化的积雪里。\n\n**岩壁下要小心。**冬天瀑布冻成一根蓝色的冰柱——很美，但很危险：2021年1月，一块坠落的冰块砸死一人、砸伤数人。不要站到岩檐下，也不要进入洞穴。",
    "factsRu": [
     "Высота падения — 40 метров.",
     "Питается ледником на склоне Вилючинского.",
@@ -602,16 +602,20 @@
     "落差 40 米。",
     "水源是维柳钦斯基火山坡上的冰川。",
     "水在下方流进一整个夏天都不化的积雪。",
-    "2021 年 1 月的一次冰块坠落夺去了一条生命。"
+    "2021年1月的一次冰块坠落夺去了一条生命。"
    ],
    "image": "dest_dsvilyuchinskyfall",
    "creditRu": "Фото: Алексей Чернышев · CC BY-SA 4.0, Викисклад",
    "creditEn": "Photo: Alexey Chernyshev · CC BY-SA 4.0, Wikimedia Commons",
    "creditZh": "照片：Alexey Chernyshev · CC BY-SA 4.0，维基共享资源",
    "months": [
+    1,
+    2,
+    3,
     7,
     8,
-    9
+    9,
+    12
    ],
    "distanceBy": "air"
   },
@@ -683,7 +687,7 @@
    "accessZh": "从叶利佐沃乘飞机到白令岛上的尼科利斯科耶——航班很少，而且看天气；夏天也有海上考察游。回程要预留几天。",
    "permitRu": "Гражданам России в Никольское и на остров Беринга погранпропуск не нужен; иностранцам нужно разрешение ФСБ России и пограничного управления. На Медный, малые острова и морские выходы — пропуск ФСБ (оформляют в визит-центре нацпарка). Плюс разрешение национального парка «Командорские острова».",
    "permitEn": "Russian citizens need no border pass for Nikolskoye and Bering Island; foreigners need a permit from the FSB and the border directorate. For Medny, the small islands and boat trips — an FSB pass (issued at the national park visitor centre). Plus a permit from the Commander Islands National Park.",
-   "permitZh": "俄罗斯公民去尼科利斯科耶和白令岛无需边境通行证；外国人需要俄罗斯联邦安全局和边防局的许可。去梅德内岛、小岛和出海——需要俄罗斯联邦安全局的通行证（在国家公园游客中心办理）。此外还需要“科曼多尔群岛”国家公园的许可。",
+   "permitZh": "俄罗斯公民去尼科利斯科耶和白令岛无需边境通行证；外国人需要俄罗斯联邦安全局和边防局的许可。去梅德内岛、两座小岛和出海——需要俄罗斯联邦安全局的通行证（在国家公园游客中心办理）。此外还需要“科曼多尔群岛”国家公园的许可。",
    "seasonRu": "Июнь — сентябрь",
    "seasonEn": "June — September",
    "seasonZh": "6–9 月",
@@ -719,6 +723,99 @@
     9
    ],
    "distanceBy": "air"
+  },
+  {
+   "id": "ds-avacha-pass",
+   "nameRu": "Авачинский перевал",
+   "nameEn": "Avacha Pass",
+   "nameZh": "阿瓦恰山口",
+   "kindRu": "природный парк",
+   "kindEn": "nature park",
+   "kindZh": "自然公园",
+   "lat": 53.28,
+   "lon": 158.7714,
+   "distanceKm": 27,
+   "distanceBy": "air",
+   "accessRu": "Только на внедорожнике: дорога идёт по руслу Сухой речки. Съезд с объездной Петропавловск — Елизово в районе «деревянного» рынка, дальше около 6 километров к дачам и по руслу. Машины оставляют на стоянке у кордона «Авачинский», дальше пешком. Зимой проезд автомобилей запрещён — снегоход или лыжи.",
+   "accessEn": "Four-wheel drive only: the track runs along the bed of the Sukhaya river. Turn off the Petropavlovsk–Yelizovo bypass near the “wooden” market, then about 6 km towards the dachas and on along the riverbed. Cars are left at the car park by the Avachinsky ranger station; from there on foot. In winter cars are not allowed — snowmobile or skis.",
+   "accessZh": "只能开越野车：道路沿干河床行进。从彼得罗巴甫洛夫斯克—叶利佐沃绕城路在“木头市场”附近转下，再走约 6 公里到别墅区，然后沿河床走。车停在阿瓦恰护林点旁的停车场，再往里只能步行。冬天禁止汽车通行——只能乘雪地摩托或滑雪。",
+   "permitRu": "На сам перевал разрешение не нужно: парк объявил его зоной свободного посещения. Оно понадобится, если идти дальше — в Налычевскую долину; там же берут рекреационный сбор.",
+   "permitEn": "No permit is needed for the pass itself: the park has declared it a zone of free access. You do need one to continue into the Nalychevo valley, where a recreation fee also applies.",
+   "permitZh": "上山口本身不需要许可证：公园已把它划为自由进入区。若要继续前往纳雷切沃山谷则需要许可证，那里还要缴游憩费。",
+   "seasonRu": "Июнь — октябрь; пешие маршруты открывают первыми, с 1 июня. Зимние маршруты — декабрь — май",
+   "seasonEn": "June — October; the walking routes open first, from 1 June. Winter routes run December — May",
+   "seasonZh": "6—10 月；步行线路最先开放，从 6月1日起。冬季线路为 12 月至 5 月",
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "textRu": "Седловина между Авачинским и Корякским вулканами, ближайшая к городу точка большой камчатской природы: 27 километров по прямой. Высота перевала в паспорте маршрута природного парка — 1218 метров.\n\nОтсюда начинается подъём на Авачинский: около 15 километров туда и обратно, 6–8 часов, крутизна склона доходит до 30 градусов. Паспорт маршрута не рекомендует его детям младше 14 лет. Короткий вариант — экструзия Верблюд: 2,5 километра в одну сторону, 2–4 часа, с 7 лет.\n\nНа перевале нет источников питьевой воды, а связь слабая — воду берите с собой и не рассчитывайте на телефон.",
+   "textEn": "The saddle between the Avachinsky and Koryaksky volcanoes, the nearest piece of big Kamchatka nature to the city: 27 km as the crow flies. The nature park's route passport gives the height of the pass as 1218 metres.\n\nThe climb up Avachinsky starts here: about 15 km there and back, 6–8 hours, with slopes reaching 30 degrees. The route passport does not recommend it for children under 14. The short option is the Verblyud extrusion: 2.5 km one way, 2–4 hours, from age 7.\n\nThere is no drinking water on the pass and the mobile signal is weak — carry water and do not count on your phone.",
+   "textZh": "阿瓦恰火山与科里亚克火山之间的鞍部，是离城市最近的一片堪察加大自然：直线距离 27 公里。自然公园的线路护照给出的山口高度为 1218 米。\n\n攀登阿瓦恰火山从这里起步：往返约 15 公里，6—8 小时，坡度可达 30 度。线路护照不建议 14 岁以下的孩子走。短一些的选择是“骆驼”岩体：单程 2.5 公里，2—4 小时，7 岁以上可行。\n\n山口上没有饮用水源，手机信号也弱——请自带水，别指望电话。",
+   "factsRu": [
+    "Экструзия Верблюд — три сросшихся блока андезита. Около десяти тысяч лет назад вязкая магма медленно выдавилась наружу и застыла горбами.",
+    "Соседние вздутия, например гора Новограбленова, родились раньше — под ледником, и лёд сгладил им бока.",
+    "Сусликов-евражек здесь нельзя кормить: шоколад для них яд, одна небольшая плитка способна убить зверька."
+   ],
+   "factsEn": [
+    "The Verblyud extrusion is three fused blocks of andesite. About ten thousand years ago viscous magma was slowly squeezed out and set in humps.",
+    "Neighbouring bulges such as Mount Novograblenova formed earlier, under a glacier, and the ice smoothed their sides.",
+    "Do not feed the ground squirrels here: chocolate is poison to them, and one small bar can kill an animal."
+   ],
+   "factsZh": [
+    "“骆驼”岩体是三块长在一起的安山岩。大约一万年前，黏稠的岩浆慢慢被挤出地表，凝成了驼峰。",
+    "旁边的一些隆起形成得更早——在冰川底下，冰把它们的侧面磨圆了。",
+    "这里的北极黄鼠不能喂：巧克力对它们是毒药，一小块就足以要了它的命。"
+   ]
+  },
+  {
+   "id": "ds-tolbachik-dol",
+   "nameRu": "Толбачинский дол",
+   "nameEn": "Tolbachinsky Dol",
+   "nameZh": "托尔巴奇克熔岩台地",
+   "kindRu": "природный парк",
+   "kindEn": "nature park",
+   "kindZh": "自然公园",
+   "lat": 55.7353,
+   "lon": 160.3153,
+   "distanceKm": 318,
+   "distanceBy": "air",
+   "accessRu": "Сначала 500 километров по дороге до Козыревска, 8–9 часов на машине или рейсовом автобусе. Дальше 70–75 километров лесной дороги на вездеходе, 3–5 часов, с двумя бродами через Студёную: в начале лета она разливается от таяния снега и ледников и может стать настоящей преградой.",
+   "accessEn": "First 500 km by road to Kozyrevsk, 8–9 hours by car or scheduled bus. Then 70–75 km of forest track by all-terrain vehicle, 3–5 hours, with two fords across the Studenaya river: in early summer it swells with meltwater and can become a serious obstacle.",
+   "accessZh": "先沿公路走 500 公里到科济列夫斯克，开车或坐班车 8—9 小时。然后乘全地形车走 70—75 公里林道，3—5 小时，要涉两次斯图杰纳亚河：初夏冰雪融化时河水上涨，可能成为真正的阻碍。",
+   "permitRu": "Нужно разрешение природного парка «Ключевской» и рекреационный сбор. Заявку на паспортизированный маршрут обрабатывают за один рабочий день, на нестандартный — за три. Иностранным туристам для посёлка Ключи нужно заблаговременное согласование ФСБ.",
+   "permitEn": "A permit from the Klyuchevskoy nature park and a recreation fee are required. An application for a listed route is processed in one working day, for a non-standard one in three. Foreign visitors need advance FSB approval for the village of Klyuchi.",
+   "permitZh": "需要克柳切夫自然公园的许可证并缴纳游憩费。已列入名录的线路申请一个工作日办结，非标准线路三个工作日。外国游客前往克柳奇村须事先取得联邦安全局批准。",
+   "seasonRu": "Июнь — сентябрь. Сезон закрывают не снега, а броды через Студёную",
+   "seasonEn": "June — September. It is the fords across the Studenaya, not the snow, that close the season",
+   "seasonZh": "6—9 月。决定季节的不是积雪，而是斯图杰纳亚河的涉水点",
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "textRu": "Лавовое плато у подножия Плоского и Острого Толбачиков. Сами вулканы выросли в плейстоцене, а дол моложе: его покров излился уже в голоцене из множества отдельных центров, и на месте каждого остался шлаковый конус.\n\nГлавное здесь — следы двух извержений. Большое трещинное 1975–1976 годов было крупнейшим базальтовым извержением Камчатки и одним из шести самых больших трещинных извержений мира за всю писаную историю; его конусы Северного прорыва объявлены памятником природы. Извержение 2012–2013 годов назвали в честь пятидесятилетия Института вулканологии; южный поток тогда сжёг полевую станцию «Ленинградская» и базу природного парка.\n\nНочуют на кордоне «Клешня» — там кухня-столовая и настильные площадки.",
+   "textEn": "A lava plateau at the foot of Plosky and Ostry Tolbachik. The volcanoes themselves grew in the Pleistocene, but the plateau is younger: its cover poured out in the Holocene from many separate vents, each leaving a cinder cone behind.\n\nWhat matters here are the traces of two eruptions. The Great Fissure Eruption of 1975–76 was the largest basaltic eruption in Kamchatka and one of the six largest fissure eruptions in recorded history; its Northern Breakthrough cones are a protected natural monument. The 2012–13 eruption was named for the fiftieth anniversary of the Institute of Volcanology; its southern flow burned down the Leningradskaya field station and a nature park base.\n\nPeople sleep at the Kleshnya ranger station, which has a kitchen-canteen and decking platforms.",
+   "textZh": "托尔巴奇克火山（平顶峰与尖顶峰）脚下的熔岩台地。两座山峰本身形成于更新世，台地则年轻得多：它的熔岩盖在全新世从许多独立的喷出口流出，每一处都留下了一座火山渣锥。\n\n这里最值得看的是两次喷发留下的痕迹。1975—1976年的大裂隙喷发是堪察加最大的一次玄武岩喷发，也是有文字记载以来世界上六次最大的裂隙喷发之一；它北部突破口的火山锥被定为自然纪念物。2012—2013年的喷发以火山学研究所成立五十周年命名；当时南侧的熔岩流烧毁了“列宁格勒”野外站和自然公园的一处基地。\n\n住宿在“克列什尼亚”护林点，那里有厨房餐厅和木栈平台。",
+   "factsRu": [
+    "В 1969 году здесь испытывали «Луноход»: коэффициент соответствия местности поверхности Луны оказался 96 процентов, и площадку повысили до полигона.",
+    "По числу впервые открытых минералов — 153 — Толбачик сегодня мировой рекордсмен; их находят прямо в фумаролах на конусах Северного прорыва.",
+    "Извержение 1975–1976 годов выбросило 2,3 кубических километра вещества и было предсказано заранее — его наблюдали полтора года подряд."
+   ],
+   "factsEn": [
+    "In 1969 the Lunokhod rover was tested here: the ground matched the lunar surface by 96 per cent, and the site was upgraded to a proving ground.",
+    "With 153 minerals first described here, Tolbachik is today the world record holder; they are found in the fumaroles on the Northern Breakthrough cones.",
+    "The 1975–76 eruption threw out 2.3 cubic kilometres of material and had been predicted in advance — it was watched for a year and a half."
+   ],
+   "factsZh": [
+    "1969 年这里试验过“月球车”：地表与月面的吻合度达到 96%，试验场因此升格为正式靶场。",
+    "以首次发现的矿物数量计——153 种——托尔巴奇克是当今的世界纪录保持者；它们就在北部突破口火山锥的喷气孔里被找到。",
+    "1975—1976年的喷发喷出 2.3 立方公里物质，而且事先被预报出来——人们连续观测了一年半。"
+   ]
   }
  ],
  "noteEn": "Facts are checked against open sources. Access rules and permits were checked on 12.09.2026 — they change, so confirm with the park or reserve administration before travelling.",
