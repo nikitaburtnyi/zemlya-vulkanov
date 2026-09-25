@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 5,
  "note": "Заведения, цены на услуги и правила меняются быстро. Всё здесь сверено с Камчатским туристическим порталом (visitkamchatka.ru), сайтами заведений и аэропорта Елизово 13.09.2026; разделы «Из аэропорта» и «Что платное» — с сайтами аэропорта, природного парка и заповедника 25.09.2026; перед поездкой перепроверьте на месте. Рейтингов и цен нет нарочно — они устаревают первыми.",
  "noteEn": "Venues, service prices and rules change fast. Everything here was checked against the Kamchatka tourism portal (visitkamchatka.ru), the venues’ own sites and the Yelizovo airport site on 13.09.2026; the “From the airport” and “What you pay for” sections against the airport, nature park and reserve sites on 25.09.2026; recheck locally before your trip. There are no ratings or prices on purpose — they go stale first.",
  "noteZh": "场所、服务价格和规定变化很快。这里的一切都已于 2026年9月13日与堪察加旅游门户网站（visitkamchatka.ru）、各场所官网和叶利佐沃机场网站核对；“从机场出发”和“什么要花钱”两节已于 2026年9月25日与机场、自然公园和自然保护区官网核对；出行前请在当地再次确认。这里故意不列评分和价格——它们最先过时。",
@@ -1098,9 +1098,9 @@
      "tagRu": "пропуска и согласования",
      "tagEn": "passes and approvals",
      "tagZh": "通行证与审批",
-     "textRu": "Для посёлка Ключи в Ключевском парке нужно заблаговременное согласование ФСБ. То же — для иностранных туристов, если маршрут в Южно-Камчатском парке идёт через Мутновскую ГеоТЭС. Коммерческая съёмка и полёты дронов над парками — только с разрешения дирекции.",
-     "textEn": "The village of Klyuchi in the Klyuchevskoy park needs advance FSB approval. So does a route through the Mutnovsky geothermal plant in the Yuzhno-Kamchatsky park for foreign visitors. Commercial filming and drone flights over the parks need the directorate's permission.",
-     "textZh": "前往克柳切夫自然公园内的克柳奇村，须事先取得联邦安全局批准。外国游客若在南堪察加公园的线路经过穆特诺夫斯基地热电站，同样需要批准。在公园上空的商业拍摄和无人机飞行，须经公园管理局许可。"
+     "textRu": "Иностранным туристам для посёлка Ключи в Ключевском парке нужно заблаговременное согласование ФСБ. То же самое, если маршрут в Южно-Камчатском парке идёт через Мутновскую ГеоТЭС. Коммерческая съёмка и полёты дронов над парками — только с разрешения дирекции.",
+     "textEn": "Foreign visitors need advance FSB approval for the village of Klyuchi in the Klyuchevskoy park. The same goes for a route through the Mutnovsky geothermal plant in the Yuzhno-Kamchatsky park for foreign visitors. Commercial filming and drone flights over the parks need the directorate's permission.",
+     "textZh": "外国游客前往克柳切夫自然公园内的克柳奇村，须事先取得联邦安全局批准。若在南堪察加公园的线路经过穆特诺夫斯基地热电站，同样需要批准。在公园上空的商业拍摄和无人机飞行，须经公园管理局许可。"
     },
     {
      "id": "fe-tax",
