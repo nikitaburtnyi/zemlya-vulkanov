@@ -1,9 +1,11 @@
 {
  "note": "Авиационные цветовые коды опасности вулканов — недельный прогноз KVERT (Камчатская группа реагирования на вулканические извержения, ИВиС ДВО РАН).",
  "source": "KVERT, ИВиС ДВО РАН",
+ "sourceEn": "KVERT, Institute of Volcanology and Seismology FEB RAS",
+ "sourceZh": "KVERT，俄罗斯科学院远东分院火山与地震研究所",
  "url": "http://kvert.febras.net/progn/index",
- "forecastDate": "2026-09-17",
- "version": 1,
+ "forecastDate": "2026-09-24",
+ "version": 2,
  "count": 30,
  "items": [
   {
