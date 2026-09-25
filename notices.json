@@ -27,7 +27,8 @@
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382"
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "kind": "danger"
   },
   {
    "id": "nalychevo-2026-09-23",
@@ -46,7 +47,8 @@
    "sourceRu": "Сеть природных парков «Вулканы Камчатки», новости, 23.09.2026",
    "sourceEn": "Volcanoes of Kamchatka nature-park network, news, 23.09.2026",
    "sourceZh": "“堪察加火山”自然公园网，新闻，2026年9月23日",
-   "url": "https://www.vulcanikamchatki.ru/novosti/otkrytie_marshrutov/"
+   "url": "https://www.vulcanikamchatki.ru/novosti/otkrytie_marshrutov/",
+   "kind": "info"
   },
   {
    "id": "gorely-2026-09-17",
@@ -69,7 +71,8 @@
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382"
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "kind": "danger"
   },
   {
    "id": "klyuchevskoy-group-2026-09-17",
@@ -90,7 +93,8 @@
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382"
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "kind": "danger"
   },
   {
    "id": "avacha-road-2026-09-17",
@@ -113,7 +117,8 @@
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382"
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "kind": "closed"
   },
   {
    "id": "vilyuchinsky-pass-2026-09-17",
@@ -134,7 +139,8 @@
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382"
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "kind": "closed"
   },
   {
    "id": "bears-settlements-2026-09-17",
@@ -152,7 +158,8 @@
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382"
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "kind": "danger"
   }
  ]
 }
