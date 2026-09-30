@@ -1,10 +1,10 @@
 {
- "note": "Объявления «Земли вулканов»: закрытые маршруты и предупреждения ведомств. Живут здесь и на странице https://nikitaburtnyi.github.io/zemlya-vulkanov/notices.json — приложение загружает их, когда есть сеть. Правило: только по источнику, с датой; снятое ограничение — удалить объявление. Решение Никиты 13.09.2026.",
- "updated": "2026-09-23",
+ "note": "Объявления «Земли вулканов»: закрытые маршруты и предупреждения ведомств. Живут здесь и на странице https://nikitaburtnyi.github.io/zemlya-vulkanov/notices.json — приложение загружает их, когда есть сеть. Правило: только по источнику, с датой; снятое ограничение — удалить объявление. Решение Никиты 13.09.2026. Срок годности проставлен только там, где граница сезона названа природным парком; у остальных объявлений его нет намеренно — их заменяет свежая сводка Минтуризма.",
+ "updated": "2026-09-30",
  "items": [
   {
-   "id": "mutnovsky-2026-09-17",
-   "date": "2026-09-17",
+   "id": "mutnovsky-2026-09-24",
+   "date": "2026-09-24",
    "targets": [
     "ds-mutnovsky",
     "hs-dachny",
@@ -21,13 +21,13 @@
    "titleRu": "Мутновский: опасность — просят соблюдать осторожность",
    "titleEn": "Mutnovsky: danger — caution advised",
    "titleZh": "穆特诺夫斯基火山：危险——请注意安全",
-   "textRu": "По оперативной сводке Минтуризма Камчатского края от 17.09.2026: у вулкана Мутновский высокая сейсмическая активность, риск оползней и обвалов. Статус — «опасность». Министерство просит соблюдать осторожность в районе вулкана.",
-   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 17.09.2026, Mutnovsky volcano shows high seismic activity, with a risk of landslides and rockfalls. Status: “danger”. The ministry asks visitors to take care in the area of the volcano.",
-   "textZh": "据堪察加边疆区旅游部 2026年9月17日的通报：穆特诺夫斯基火山地震活动强烈，有滑坡和塌方的危险，状态为“危险”。旅游部请游客在火山周边区域注意安全。",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: у вулкана Мутновский высокая сейсмическая активность, риск оползней и обвалов. Статус — «опасность». Маршруты природных парков «Вилючинский» и «Южно-Камчатский» открыты, но министерство просит соблюдать осторожность в районе вулкана.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, Mutnovsky volcano shows high seismic activity, with a risk of landslides and rockfalls. Status: “danger”. The trails of the Vilyuchinsky and South Kamchatka nature parks are open, but the ministry asks visitors to take care in the area of the volcano.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：穆特诺夫斯基火山地震活动强烈，有滑坡和塌方的危险，状态为“危险”。维柳钦斯基和南堪察加自然公园的线路开放，但旅游部请游客在火山周边区域注意安全。",
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573",
    "kind": "danger"
   },
   {
@@ -48,35 +48,12 @@
    "sourceEn": "Volcanoes of Kamchatka nature-park network, news, 23.09.2026",
    "sourceZh": "“堪察加火山”自然公园网，新闻，2026年9月23日",
    "url": "https://www.vulcanikamchatki.ru/novosti/otkrytie_marshrutov/",
-   "kind": "info"
+   "kind": "info",
+   "validUntil": "2026-10-31"
   },
   {
-   "id": "gorely-2026-09-17",
-   "date": "2026-09-17",
-   "targets": [
-    "ds-gorely",
-    "gvp-300070",
-    "rt-5",
-    "rt-7",
-    "rt-10",
-    "ac-hike",
-    "pa-southpark"
-   ],
-   "titleRu": "Горелый: опасность — зафиксирован снежный покров",
-   "titleEn": "Gorely: danger — snow cover recorded",
-   "titleZh": "戈列雷火山：危险——已出现积雪",
-   "textRu": "По оперативной сводке Минтуризма Камчатского края от 17.09.2026: на вулкане Горелый зафиксирован снежный покров, статус — «опасность».",
-   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 17.09.2026, snow cover has been recorded on Gorely volcano; status: “danger”.",
-   "textZh": "据堪察加边疆区旅游部 2026年9月17日的通报：戈列雷火山已出现积雪，状态为“危险”。",
-   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
-   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
-   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
-   "kind": "danger"
-  },
-  {
-   "id": "klyuchevskoy-group-2026-09-17",
-   "date": "2026-09-17",
+   "id": "klyuchevskoy-group-2026-09-24",
+   "date": "2026-09-24",
    "targets": [
     "gvp-300260",
     "gvp-300250",
@@ -87,18 +64,18 @@
    "titleRu": "Ключевской и Безымянный: жёлтый код, посещение не рекомендуется",
    "titleEn": "Klyuchevskoy and Bezymianny: yellow code, visiting not recommended",
    "titleZh": "克柳切夫火山与别济米扬内火山：黄色预警，不建议前往",
-   "textRu": "По оперативной сводке Минтуризма Камчатского края от 17.09.2026: маршруты природного парка «Ключевской» открыты, но передвижение в районах вулканов крайне небезопасно — жителям и гостям региона рекомендуют не приближаться к вулканам. Вулканы Безымянный и Ключевской — код «жёлтый», посещение не рекомендуется.",
-   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 17.09.2026, the routes of Klyuchevskoy Nature Park are open, but moving around the volcanoes is extremely unsafe — residents and visitors are advised not to approach them. Bezymianny and Klyuchevskoy volcanoes are under a “yellow” code; visiting is not recommended.",
-   "textZh": "据堪察加边疆区旅游部 2026年9月17日的通报：“克柳切夫”自然公园的线路开放，但在火山周边活动极其危险——建议居民和游客不要靠近火山。别济米扬内火山和克柳切夫火山为“黄色”预警，不建议前往。",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: маршруты природного парка «Ключевской» открыты, но передвижение в районах вулканов крайне небезопасно. У Ключевского и Безымянного — жёлтый авиационный код, посещение не рекомендуется.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, the trails of the Klyuchevskoy nature park are open, but moving around the volcanoes is highly unsafe. Klyuchevskoy and Bezymianny are on a yellow aviation code; visits are not recommended.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：克柳切夫斯科伊自然公园的线路开放，但在火山地区行动非常不安全。克柳切夫火山和别济米扬内火山为黄色航空色码，不建议前往。",
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573",
    "kind": "danger"
   },
   {
-   "id": "avacha-road-2026-09-17",
-   "date": "2026-09-17",
+   "id": "avacha-road-2026-09-24",
+   "date": "2026-09-24",
    "targets": [
     "gvp-300100",
     "gvp-300090",
@@ -106,23 +83,24 @@
     "rt-3",
     "rt-5",
     "rt-7",
-    "rt-10"
+    "rt-10",
+    "ds-avacha-pass"
    ],
    "titleRu": "Дорога к Авачинскому перевалу размыта",
    "titleEn": "Road to the Avachinsky pass washed out",
    "titleZh": "通往阿瓦恰山口的道路被冲毁",
-   "textRu": "По оперативной сводке Минтуризма Камчатского края от 17.09.2026: после дождей на проезде к Авачинскому перевалу произошёл размыв дороги, образовался овраг — передвижение осложнено и небезопасно.",
-   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 17.09.2026, rain has washed out the road to the Avachinsky pass and a gully has formed — travel is difficult and unsafe.",
-   "textZh": "据堪察加边疆区旅游部 2026年9月17日的通报：降雨后通往阿瓦恰山口的道路被冲毁，形成沟壑——通行困难且不安全。",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: после дождей на проезде к Авачинскому перевалу произошёл размыв дороги, образовался овраг — передвижение осложнено и небезопасно.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, rain has washed out the track to the Avacha Pass and a gully has formed — the drive is difficult and unsafe.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：雨后通往阿瓦恰山口的道路被冲毁，出现了沟壑——通行困难且不安全。",
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573",
    "kind": "closed"
   },
   {
-   "id": "vilyuchinsky-pass-2026-09-17",
-   "date": "2026-09-17",
+   "id": "vilyuchinsky-pass-2026-09-24",
+   "date": "2026-09-24",
    "targets": [
     "gvp-300083",
     "ds-vilyuchinsky-fall",
@@ -130,21 +108,21 @@
     "ds-gorely",
     "hs-dachny"
    ],
-   "titleRu": "Проезд «Термальный — Вилючинский перевал» — только по пропускам",
-   "titleEn": "Termalny — Vilyuchinsky pass road: permits only",
-   "titleZh": "“捷尔马利内—维柳钦斯基山口”道路：仅凭通行证通行",
-   "textRu": "По оперативной сводке Минтуризма Камчатского края от 17.09.2026: проезд «п. Термальный — Вилючинский перевал» осуществляется строго по пропускам. График работы КПП: 07:00–08:00, 13:00–14:00, 19:00–20:00 (ustoym.ru).",
-   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 17.09.2026, the road from Termalny to the Vilyuchinsky pass is open strictly by permit. Checkpoint hours: 07:00–08:00, 13:00–14:00, 19:00–20:00 (ustoym.ru).",
-   "textZh": "据堪察加边疆区旅游部 2026年9月17日的通报：“捷尔马利内村—维柳钦斯基山口”路段严格凭通行证通行。检查站开放时间：07:00–08:00、13:00–14:00、19:00–20:00（ustoym.ru）。",
+   "titleRu": "Вилючинский перевал: проезд по пропускам, КПП по часам",
+   "titleEn": "Vilyuchinsky Pass: permits only, checkpoint opens by the clock",
+   "titleZh": "维柳钦斯基山口：凭通行证通行，检查站按时段开放",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: проезд «п. Термальный — Вилючинский перевал» осуществляется строго по пропускам. График работы КПП: 07:00–08:00, 13:00–14:00, 19:00–20:00.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, the road from Termalny to the Vilyuchinsky Pass is open to permit holders only. The checkpoint works 07:00–08:00, 13:00–14:00 and 19:00–20:00.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：“捷尔马利内村—维柳钦斯基山口”路段严格凭通行证通行。检查站开放时间为 07:00–08:00、13:00–14:00、19:00–20:00。",
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573",
    "kind": "closed"
   },
   {
-   "id": "bears-settlements-2026-09-17",
-   "date": "2026-09-17",
+   "id": "bears-settlements-2026-09-24",
+   "date": "2026-09-24",
    "targets": [
     "sf-bears",
     "an-bear"
@@ -152,14 +130,89 @@
    "titleRu": "Медведи у посёлков: режим повышенной готовности",
    "titleEn": "Bears near settlements: heightened-alert regime",
    "titleZh": "熊出没于居民点附近：已启动高度戒备状态",
-   "textRu": "По оперативной сводке Минтуризма Камчатского края от 17.09.2026: из-за угрозы выхода медведей в черту населённых пунктов режим «Повышенная готовность» действует в Петропавловск-Камчатском городском округе, Вилючинском городском округе и Елизовском муниципальном округе.",
-   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 17.09.2026, because of the threat of bears entering built-up areas, a “heightened alert” regime is in force in the Petropavlovsk-Kamchatsky and Vilyuchinsk urban districts and the Yelizovo municipal district.",
-   "textZh": "据堪察加边疆区旅游部 2026年9月17日的通报：因熊有进入居民点的危险，彼得罗巴甫洛夫斯克-堪察加城区、维柳钦斯克城区和叶利佐沃市镇区正在实施“高度戒备”状态。",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: из-за угрозы выхода диких животных (медведей) в черту населённых пунктов режим «Повышенная готовность» действует в Петропавловск-Камчатском городском округе, Вилючинском городском округе и Елизовском муниципальном округе.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, because wild animals (bears) may come into settlements, a state of heightened readiness is in force in the Petropavlovsk-Kamchatsky and Vilyuchinsk urban districts and the Yelizovo municipal district.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：由于野生动物（熊）可能进入居民点，彼得罗巴甫洛夫斯克市、维柳钦斯克市和叶利佐沃区实行“高度戒备”状态。",
    "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
    "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
    "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
-   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-17092026-92382",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573",
    "kind": "danger"
+  },
+  {
+   "id": "shiveluch-2026-09-24",
+   "date": "2026-09-24",
+   "targets": [
+    "gvp-300270"
+   ],
+   "titleRu": "Шивелуч: оранжевый код, извержение продолжается",
+   "titleEn": "Shiveluch: orange code, the eruption continues",
+   "titleZh": "希韦卢奇火山：橙色色码，喷发仍在继续",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: у Шивелуча оранжевый авиационный код — экструзивно-эксплозивное извержение продолжится, возможны пепловые выбросы до 8 километров над уровнем моря. Населению не рекомендуется посещать район вулкана в радиусе 10 километров от вершины.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, Shiveluch is on an orange aviation code: the extrusive-explosive eruption will continue and ash plumes may reach 8 km above sea level. People are advised not to enter the area within 10 km of the summit.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：希韦卢奇火山为橙色航空色码——挤出—爆炸式喷发仍将继续，火山灰可能升至海拔 8 公里。建议公众不要进入距山顶 10 公里范围内的区域。",
+   "kind": "danger",
+   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
+   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573"
+  },
+  {
+   "id": "krasheninnikov-2026-09-24",
+   "date": "2026-09-24",
+   "targets": [
+    "gvp-300190",
+    "pa-kronotsky"
+   ],
+   "titleRu": "Крашенинникова: жёлтый код, идёт извержение",
+   "titleEn": "Krasheninnikov: yellow code, an eruption is under way",
+   "titleZh": "克拉舍宁尼科夫火山：黄色色码，正在喷发",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: у вулкана Крашенинникова жёлтый авиационный код — продолжается эффузивно-эксплозивное извержение с излиянием лавового потока. Населению посещение района вулкана не рекомендуется.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, Krasheninnikov volcano is on a yellow aviation code: the effusive-explosive eruption continues, with a lava flow. Visits to the area of the volcano are not recommended.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：克拉舍宁尼科夫火山为黄色航空色码——溢流—爆炸式喷发仍在继续，有熔岩流出。不建议公众前往火山周边区域。",
+   "kind": "danger",
+   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
+   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573"
+  },
+  {
+   "id": "palana-road-2026-09-24",
+   "date": "2026-09-24",
+   "targets": [
+    "pl-palana"
+   ],
+   "titleRu": "Палана: подмыт мост на дороге в аэропорт",
+   "titleEn": "Palana: the bridge on the airport road has been undermined",
+   "titleZh": "帕拉纳：通往机场道路的桥梁被掏空",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: на автодороге «Палана — аэропорт» зафиксирован подмыв у моста через реку Палана, ведутся восстановительные работы. Введён режим повышенной готовности.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, the bridge over the Palana river on the Palana–airport road has been undermined and repairs are under way. A state of heightened readiness has been declared.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：“帕拉纳—机场”公路上跨帕拉纳河的桥梁被水掏空，正在抢修。已宣布进入高度戒备状态。",
+   "kind": "closed",
+   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
+   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573"
+  },
+  {
+   "id": "sea-tours-orca-2026-09-24",
+   "date": "2026-09-24",
+   "targets": [
+    "ac-sea",
+    "an-orca",
+    "an-whale"
+   ],
+   "titleRu": "Морские экскурсии: до косаток не ближе 200 метров",
+   "titleEn": "Boat trips: keep at least 200 metres from orcas",
+   "titleZh": "出海游：离虎鲸不得近于 200 米",
+   "textRu": "По оперативной сводке Минтуризма Камчатского края от 24.09.2026: на морских экскурсиях в Авачинском заливе просят соблюдать безопасную дистанцию до косаток — не менее 200 метров. Преследовать животных и перекрывать им путь запрещено: это опасно и для косаток, и для пассажиров судна.",
+   "textEn": "According to the Kamchatka Ministry of Tourism operational update of 24.09.2026, boat trips in Avacha Gulf must keep a safe distance from orcas — at least 200 metres. Chasing the animals or cutting across their path is forbidden: it is dangerous both for the orcas and for the people on board.",
+   "textZh": "据堪察加边疆区旅游部 2026年9月24日的通报：在阿瓦恰湾的出海游中，须与虎鲸保持至少 200 米的安全距离。禁止追赶动物或拦截它们的去路：这对虎鲸和船上乘客都很危险。",
+   "kind": "info",
+   "sourceRu": "Минтуризма Камчатского края, оперативная сводка о доступности туристических объектов, kamgov.ru",
+   "sourceEn": "Kamchatka Ministry of Tourism, operational update on access to tourist sites, kamgov.ru",
+   "sourceZh": "堪察加边疆区旅游部旅游景点开放情况通报，kamgov.ru",
+   "url": "https://kamgov.ru/mintur/news/operativnaa-svodka-o-dostupnosti-turisticeskih-obektov-24092026-92573"
   }
  ]
 }
