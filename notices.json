@@ -1,7 +1,27 @@
 {
  "note": "Объявления «Земли вулканов»: закрытые маршруты и предупреждения ведомств. Живут здесь и на странице https://nikitaburtnyi.github.io/zemlya-vulkanov/notices.json — приложение загружает их, когда есть сеть. Правило: только по источнику, с датой; снятое ограничение — удалить объявление. Решение Никиты 13.09.2026. Срок годности проставлен только там, где граница сезона названа природным парком; у остальных объявлений его нет намеренно — их заменяет свежая сводка Минтуризма.",
- "updated": "2026-09-24",
+ "updated": "2026-10-10",
  "items": [
+  {
+   "id": "klyuchevskoy-park-winter-2026-10-07",
+   "date": "2026-10-07",
+   "targets": [
+    "pa-klyuchevskoy",
+    "ds-dead-forest",
+    "ds-giants-valley"
+   ],
+   "titleRu": "Природный парк «Ключевской» закрыт на зиму",
+   "titleEn": "Klyuchevskoy Nature Park closed for the winter",
+   "titleZh": "克柳切夫斯科伊自然公园冬季关闭",
+   "textRu": "Сеть природных парков «Вулканы Камчатки» 07.10.2026 сообщила, что природный парк «Ключевской» закрыт на зимний период. Сводка Министерства туризма от 08.10.2026 называет маршруты парка открытыми — перед поездкой уточните в дирекции парка.",
+   "textEn": "On 7 October 2026 the Volcanoes of Kamchatka nature-park network announced that Klyuchevskoy Nature Park is closed for the winter. The Ministry of Tourism summary of 8 October 2026 still lists the park’s routes as open — check with the park administration before you go.",
+   "textZh": "“堪察加火山”自然公园网于2026年10月7日宣布，克柳切夫斯科伊自然公园冬季关闭。旅游部2026年10月8日的通报仍称公园线路开放——出行前请向公园管理处确认。",
+   "sourceRu": "Сеть природных парков «Вулканы Камчатки», новости, 07.10.2026",
+   "sourceEn": "Volcanoes of Kamchatka nature-park network, news, 07.10.2026",
+   "sourceZh": "“堪察加火山”自然公园网，新闻，2026年10月7日",
+   "url": "https://vulcanikamchatki.ru/novosti/zakrytie_marshrutov/",
+   "kind": "info"
+  },
   {
    "id": "mutnovsky-2026-09-24",
    "date": "2026-09-24",
