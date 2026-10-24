@@ -1,5 +1,5 @@
 {
- "version": 9,
+ "version": 12,
  "note": "Факты сверены с открытыми источниками. Порядок доступа и разрешения проверены 12.09.2026 — они меняются, перед поездкой уточняйте у дирекции парка или заповедника.",
  "checked": "25.09.2026",
  "count": 15,
@@ -251,7 +251,8 @@
     8,
     9
    ],
-   "distanceBy": "air"
+   "distanceBy": "air",
+   "volcanoId": "gvp-300060"
   },
   {
    "id": "ds-khalaktyrsky",
@@ -568,7 +569,8 @@
     8,
     9
    ],
-   "distanceBy": "air"
+   "distanceBy": "air",
+   "volcanoId": "gvp-300070"
   },
   {
    "id": "ds-vilyuchinsky-fall",
@@ -753,11 +755,17 @@
    "seasonEn": "June — October; the walking routes open first, from 1 June. Winter routes run December — May",
    "seasonZh": "6—10 月；步行线路最先开放，从 6月1日起。冬季线路为 12 月至 5 月",
    "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
     6,
     7,
     8,
     9,
-    10
+    10,
+    12
    ],
    "textRu": "Седловина между Авачинским и Корякским вулканами, ближайшая к городу точка большой камчатской природы: 27 километров по прямой. Высота перевала в паспорте маршрута природного парка — 1218 метров.\n\nОтсюда начинается подъём на Авачинский: около 15 километров туда и обратно, 6–8 часов, крутизна склона доходит до 30 градусов. Паспорт маршрута не рекомендует его детям младше 14 лет. Короткий вариант — экструзия Верблюд: 2,5 километра в одну сторону, 2–4 часа, с 7 лет.\n\nНа перевале нет источников питьевой воды, а связь слабая — воду берите с собой и не рассчитывайте на телефон.",
    "textEn": "The saddle between the Avachinsky and Koryaksky volcanoes, the nearest piece of big Kamchatka nature to the city: 27 km as the crow flies. The nature park's route passport gives the height of the pass as 1218 metres.\n\nThe climb up Avachinsky starts here: about 15 km there and back, 6–8 hours, with slopes reaching 30 degrees. The route passport does not recommend it for children under 14. The short option is the Verblyud extrusion: 2.5 km one way, 2–4 hours, from age 7.\n\nThere is no drinking water on the pass and the mobile signal is weak — carry water and do not count on your phone.",
@@ -777,7 +785,11 @@
     "旁边的一些隆起形成得更早——在冰川底下，冰把它们的侧面磨圆了。",
     "这里的北极黄鼠不能喂：巧克力对它们是毒药，一小块就足以要了它的命。"
    ],
-   "permitNeeded": false
+   "permitNeeded": false,
+   "image": "dest_dsavachapass",
+   "creditRu": "Фото: Алексей Отачкин · общественное достояние, Викисклад",
+   "creditEn": "Photo: Alexey Otachkin · public domain, Wikimedia Commons",
+   "creditZh": "照片：Alexey Otachkin · 公有领域，维基共享资源"
   }
  ],
  "noteEn": "Facts are checked against open sources. Access rules and permits were checked on 12.09.2026 — they change, so confirm with the park or reserve administration before travelling.",
