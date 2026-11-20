@@ -4,8 +4,8 @@
  "sourceEn": "KVERT, Institute of Volcanology and Seismology FEB RAS",
  "sourceZh": "KVERT，俄罗斯科学院远东分院火山学与地震学研究所",
  "url": "http://kvert.febras.net/progn/index",
- "forecastDate": "2026-10-29",
- "version": 6,
+ "forecastDate": "2026-11-19",
+ "version": 7,
  "count": 30,
  "items": [
   {
@@ -162,7 +162,7 @@
    "gvp": 300260,
    "id": "gvp-300260",
    "nameRu": "Ключевская сопка",
-   "code": "yellow"
+   "code": "green"
   },
   {
    "gvp": 300261,
