@@ -1,0 +1,35 @@
+name: Зеркало klop-games
+# Лежит в старом репозитории nikitaburtnyi/zemlya-vulkanov как .github/workflows/mirror.yml
+# (исходник — Projects/Kamchatka/Публикация/site/tools/mirror_old.yml). Каждые 6 часов
+# копирует данные с главной страницы klop-games: по старому адресу ходят версии до 1.2.1 (50).
+# Удалить вместе со старой страницей, когда этих версий у людей не останется (решение Никиты).
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Скопировать файлы
+        run: |
+          set -e
+          for f in activity.json destinations.json guide.json marks.json notices.json updates.json index.html; do
+            curl -sfL "https://raw.githubusercontent.com/klop-games/zemlya-vulkanov/main/$f" -o "$f.new"
+            if [ "${f##*.}" = "json" ]; then python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f.new"; fi
+            mv "$f.new" "$f"
+          done
+      - name: Записать, если изменилось
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Зеркало klop-games.github.io/zemlya-vulkanov"
+            git push
+          fi
