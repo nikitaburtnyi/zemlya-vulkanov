@@ -55,19 +55,17 @@
         Координаты используются только на устройстве — чтобы посчитать
         расстояние до вулканов и показать вашу точку, которую можно продиктовать
         спасателям; нигде не сохраняются и никуда не отправляются.</li>
-    <li>Обращений в сеть четыре. Подложку карты загружает сервис Apple Maps
-        по правилам Apple. Прогноз погоды на экране «Сегодня» — всегда
-        для Петропавловска-Камчатского — приходит из сервиса Open-Meteo:
-        в запросе только координаты города, никаких данных о вас.
-        Объявления о закрытых маршрутах и опасностях приложение загружает
-        с этой страницы (файл <code>notices.json</code>) — обычная загрузка
-        файла, тоже без данных о вас. С этой же страницы приходят справочные
-        файлы — места, занятия, марки и цветовые коды опасности вулканов:
-        приложение проверяет, не появилось ли свежее, и скачивает только
-        сами файлы, ничего о вас не передавая. Всё остальное содержимое уже
-        внутри приложения.</li>
-    <li>Game Center необязателен. Если вы вошли в него на устройстве, рекорды трёх игр —
-        «Медвежья тропа», «Выше — ниже» и «Где эта гора?» — отправляются в таблицы Game Center.
+    <li>Подложку карты загружает Apple Maps по правилам Apple. Прогноз Open-Meteo
+        для Петропавловска-Камчатского запрашивается с координатами города, без вашей геопозиции.
+        С этой страницы приложение получает объявления о маршрутах и опасностях
+        (<code>notices.json</code>) и обновления справочных данных: о вулканах, местах,
+        маршрутах, занятиях, природных территориях, сезонах, безопасности, городах,
+        подготовке к поездке и марках. При загрузке файлов приложение не отправляет
+        ваши отметки, заметки, снимки или геопозицию. Встроенные данные доступны
+        без интернета; сетевые обновления дополняют их.</li>
+    <li>Game Center необязателен. Если вы вошли в него на устройстве, рекорды игр —
+        «Вулкан дня», «Медвежья тропа», «Выше — ниже», «Где эта гора?», игр «Клоповой поляны» и викторины —
+        отправляются в таблицы Game Center, а часть марок — в достижения Game Center.
         Это служба Apple и работает по её правилам: другие игроки видят ваш псевдоним и очки.
         Без входа всё работает как обычно, рекорды остаются на устройстве. Кнопка «Открыть
         в App Store» на экране игр показывает страницу другой игры средствами Apple;
@@ -83,7 +81,7 @@
         Настройки → ваше имя → iCloud → Управление хранилищем → «Камчатка» → «Удалить данные».
         Разработчику писать не нужно: у него нет ваших данных.</li>
   </ul>
-  <p>Если политика изменится, эта страница будет обновлена. Обновлено 30.10.2026.</p>
+  <p>Если политика изменится, эта страница будет обновлена. Обновлено 23.11.2026.</p>
 
   <h2>Источники</h2>
   <p>Данные о вулканах — Global Volcanism Program, Смитсоновский институт
@@ -126,16 +124,16 @@
        on the Safety screen; the coordinates are used only on the device — to show distances
        and to display your position so you can read it out to rescuers — and are never
        stored or transmitted.
-       There are four network requests: Apple Maps loading map tiles under Apple’s rules;
-       the weather forecast on the Today screen — always for Petropavlovsk-Kamchatsky —
-       from Open-Meteo, whose request contains only the city’s coordinates; notices about
-       closed routes and hazards, downloaded from this site (<code>notices.json</code>);
-       and reference files — places, activities, stamps and volcano danger colour codes —
-       from this same site: the app only checks whether a fresher copy exists and downloads
-       the files themselves. Nothing about you is sent in any of them.
-       Game Center is optional: if you are signed in on the device, records from three games —
-       Bear Trail, Higher or Lower and Where Is It? — go to Game Center leaderboards, an Apple
-       service where other players see your nickname and score; without signing in, records stay
+       The app downloads Apple Maps tiles under Apple’s rules and the Open-Meteo forecast
+       for Petropavlovsk-Kamchatsky, using only the city’s coordinates, not your location.
+       This support page provides route and hazard notices (<code>notices.json</code>)
+       and reference-data updates: volcanoes, places, routes, activities, protected areas,
+       seasons, safety, towns, trip preparation and stamps. These file requests do not send
+       your check-ins, notes, photos or location. Bundled data remains available offline;
+       online updates supplement it.
+       Game Center is optional: if you are signed in on the device, game records —
+       Volcano of the day, Bear Trail, Higher or Lower, Where Is It?, the Kamchatka Bilberry Glade games and the quiz — go to Game Center
+       leaderboards, and some stamps to Game Center achievements — an Apple service where other players see your nickname and score; without signing in, records stay
        on the device. The “Open in the App Store” button on the Games screen shows another game’s
        page using Apple’s own sheet, and the app sends nothing when you use it. The diary file is
        created only when you tap “Export diary as a file”, and stays on the device until you decide
@@ -168,7 +166,7 @@
        Emergencies Ministry or any other government body.</p>
   </div>
 
-  <footer>Обновлено 30 октября 2026 года · Klop Games</footer>
+  <footer>Обновлено 23 ноября 2026 года · Klop Games</footer>
 </div>
 </body>
 </html>
