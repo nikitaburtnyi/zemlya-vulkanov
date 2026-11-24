@@ -1,0 +1,66 @@
+name: Deploy validated Pages artifact
+on:
+  workflow_call:
+    inputs:
+      artifact_id:
+        required: true
+        type: string
+    outputs:
+      page_url:
+        value: ${{ jobs.deploy.outputs.page_url }}
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for the exact uploaded artifact to become visible
+        uses: actions/github-script@v8
+        env:
+          PAGES_ARTIFACT_ID: ${{ inputs.artifact_id }}
+        with:
+          retries: 3
+          script: |
+            const expected = Number(process.env.PAGES_ARTIFACT_ID);
+            if (!Number.isSafeInteger(expected) || expected <= 0) {
+              throw new Error('The build job returned no valid Pages artifact ID');
+            }
+            let confirmations = 0;
+            for (let attempt = 0; attempt < 10; attempt++) {
+              const {data} = await github.rest.actions.listWorkflowRunArtifacts({
+                ...context.repo, run_id: context.runId, name: 'github-pages', per_page: 100
+              });
+              const matches = data.artifacts.filter(artifact => artifact.name === 'github-pages');
+              if (matches.length > 1) throw new Error('Multiple Pages artifacts in this run');
+              if (matches.length === 1) {
+                const artifact = matches[0];
+                if (artifact.id !== expected || artifact.expired || artifact.size_in_bytes <= 0) {
+                  throw new Error('The Pages artifact is unexpected, expired or empty');
+                }
+                confirmations++;
+                if (confirmations === 2) {
+                  core.info(`Confirmed Pages artifact ${expected} in run ${context.runId}`);
+                  return;
+                }
+              } else {
+                confirmations = 0;
+              }
+              core.info(`Waiting for stable Pages artifact metadata (${attempt + 1}/10)`);
+              if (attempt < 9) await new Promise(resolve => setTimeout(resolve, 5000));
+            }
+            throw new Error('Pages artifact metadata did not become ready within the bounded wait');
+      - name: Deploy the validated artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages

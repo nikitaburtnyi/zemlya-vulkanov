@@ -5,10 +5,13 @@ Default: read the public canonical repository at one immutable commit SHA.
 --local: read the public files from the current working directory instead.
 --sync-root .: also retain these exact public files in a legacy repository.
 
-No credentials, third-party packages, or external writes are used by this script.
+The workflow may supply GITHUB_TOKEN for api.github.com only.
+No third-party packages or external writes are used by this script.
 """
 
 import argparse
+from email.utils import parsedate_to_datetime
+import http.client
 import json
 import os
 from pathlib import Path
@@ -17,6 +20,7 @@ import sys
 import tempfile
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 
 
@@ -29,6 +33,51 @@ KNOWN_NAMES = frozenset({
 MAX_FILE_BYTES = 2_000_000
 NETWORK_TIMEOUT = 20
 SNAPSHOT_TIMEOUT = 240
+MAX_DOWNLOAD_ATTEMPTS = 4
+MAX_RETRY_DELAY = 30
+
+
+class NoRedirects(urllib.request.HTTPRedirectHandler):
+    """Never forward an authenticated request or a public download elsewhere."""
+
+    def redirect_request(self, request, fp, code, message, headers, new_url):
+        raise urllib.error.HTTPError(
+            request.full_url, code, "Download redirects are disabled", headers, fp
+        )
+
+
+PUBLIC_OPENER = urllib.request.build_opener(NoRedirects())
+
+
+def http_retry_delay(error, attempt):
+    """Return a bounded retry delay, or None for a permanent HTTP response."""
+    headers = error.headers or {}
+    retry_after = headers.get("Retry-After")
+    rate_limited = headers.get("X-RateLimit-Remaining") == "0" or retry_after is not None
+    if error.code == 403 and not rate_limited:
+        # Secondary rate limits can include only an explanatory JSON body.
+        try:
+            rate_limited = b"rate limit" in error.read(4096).lower()
+        except (OSError, http.client.HTTPException):
+            pass
+    if not (error.code == 429 or 500 <= error.code <= 599 or (error.code == 403 and rate_limited)):
+        return None
+    delay = float(2 ** (attempt - 1))
+    if retry_after is not None:
+        try:
+            server_delay = float(retry_after)
+        except ValueError:
+            try:
+                server_delay = parsedate_to_datetime(retry_after).timestamp() - time.time()
+            except (TypeError, ValueError, OverflowError):
+                server_delay = 0
+        delay = max(delay, server_delay)
+    elif error.code == 403 and headers.get("X-RateLimit-Remaining") == "0":
+        try:
+            delay = max(delay, float(headers.get("X-RateLimit-Reset", "0")) - time.time() + 1)
+        except ValueError:
+            pass
+    return delay
 
 
 def checked_bytes(data, name):
@@ -92,28 +141,57 @@ def fetch_public(url, deadline):
     host = urllib.parse.urlsplit(url).netloc
     if not url.startswith("https://") or host not in {"api.github.com", "raw.githubusercontent.com"}:
         raise ValueError("Unexpected public download URL")
-    request = urllib.request.Request(url, headers={
+    headers = {
         "User-Agent": "zemlya-vulkanov-pages-mirror",
         "Accept": "application/vnd.github+json" if host == "api.github.com" else "*/*",
-    })
-    with urllib.request.urlopen(request, timeout=NETWORK_TIMEOUT) as response:
-        final = urllib.parse.urlsplit(response.geturl())
-        if response.status != 200 or final.scheme != "https" or final.netloc != host:
-            raise ValueError("Unexpected public download response")
-        length = response.headers.get("Content-Length")
-        if length is not None and int(length) > MAX_FILE_BYTES:
-            raise ValueError("Public download exceeds the file size limit")
-        data = bytearray()
-        while True:
-            if time.monotonic() >= deadline:
-                raise TimeoutError("Snapshot download exceeded its time limit")
-            chunk = response.read(min(65_536, MAX_FILE_BYTES + 1 - len(data)))
-            if not chunk:
-                break
-            data.extend(chunk)
-            if len(data) > MAX_FILE_BYTES:
-                raise ValueError("Public download exceeds the file size limit")
-    return checked_bytes(bytes(data), url.rsplit("/", 1)[-1])
+    }
+    # The workflow supplies its short-lived repository token. Raw files remain
+    # anonymous; redirects are disabled before any request can forward a header.
+    token = os.environ.get("GITHUB_TOKEN")
+    if host == "api.github.com" and token:
+        headers["Authorization"] = "Bearer " + token
+    request = urllib.request.Request(url, headers=headers)
+    for attempt in range(1, MAX_DOWNLOAD_ATTEMPTS + 1):
+        remaining = deadline - time.monotonic()
+        if remaining <= 0:
+            raise TimeoutError("Snapshot download exceeded its time limit")
+        try:
+            with PUBLIC_OPENER.open(request, timeout=min(NETWORK_TIMEOUT, remaining)) as response:
+                final = urllib.parse.urlsplit(response.geturl())
+                if response.status != 200 or final.scheme != "https" or final.netloc != host:
+                    raise ValueError("Unexpected public download response")
+                length = response.headers.get("Content-Length")
+                if length is not None and int(length) > MAX_FILE_BYTES:
+                    raise ValueError("Public download exceeds the file size limit")
+                data = bytearray()
+                while True:
+                    if time.monotonic() >= deadline:
+                        raise TimeoutError("Snapshot download exceeded its time limit")
+                    chunk = response.read(min(65_536, MAX_FILE_BYTES + 1 - len(data)))
+                    if time.monotonic() >= deadline:
+                        raise TimeoutError("Snapshot download exceeded its time limit")
+                    if not chunk:
+                        break
+                    data.extend(chunk)
+                    if len(data) > MAX_FILE_BYTES:
+                        raise ValueError("Public download exceeds the file size limit")
+            return checked_bytes(bytes(data), url.rsplit("/", 1)[-1])
+        except urllib.error.HTTPError as error:
+            delay = http_retry_delay(error, attempt)
+            reason = f"HTTP {error.code}"
+            error.close()
+            if delay is None:
+                raise RuntimeError(f"{host}: download failed ({reason}); not retryable") from None
+        except (urllib.error.URLError, OSError, http.client.HTTPException):
+            delay = float(2 ** (attempt - 1))
+            reason = "transport error"
+        if attempt == MAX_DOWNLOAD_ATTEMPTS:
+            raise RuntimeError(f"{host}: download failed ({reason}) after {attempt} attempts") from None
+        remaining = deadline - time.monotonic()
+        if delay > MAX_RETRY_DELAY or delay >= remaining:
+            raise TimeoutError(f"{host}: {reason}; retry would exceed the download time limit") from None
+        print(f"{host}: {reason}; retry {attempt + 1}/{MAX_DOWNLOAD_ATTEMPTS} in {delay:g}s", file=sys.stderr)
+        time.sleep(delay)
 
 
 def remote_snapshot():
