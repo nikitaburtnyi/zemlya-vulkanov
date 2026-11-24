@@ -10,6 +10,7 @@ No third-party packages or external writes are used by this script.
 """
 
 import argparse
+from datetime import date
 from email.utils import parsedate_to_datetime
 import http.client
 import json
@@ -128,6 +129,12 @@ def validate_snapshot(snapshot):
     notices = parse_json(snapshot["notices.json"], "notices.json")
     if not isinstance(notices.get("items"), list):
         raise ValueError("notices.json: items must be an array")
+    stamp = notices.get("updated")
+    try:
+        if date.fromisoformat(stamp).isoformat() != stamp:
+            raise ValueError("non-canonical date")
+    except (TypeError, ValueError):
+        raise ValueError("notices.json: updated must be a valid YYYY-MM-DD date") from None
     for name, version in versions.items():
         actual = parse_json(snapshot[name + ".json"], name + ".json").get("version")
         if type(actual) is not int or actual != version:

@@ -217,11 +217,22 @@ class DownloadTests(unittest.TestCase):
         self.assertEqual(len(opener.requests), 2)
         self.assertEqual(self.sleeps, [])
 
+    def test_only_dated_bulletin_can_clear_warnings(self):
+        files = {"index.html": b"<html></html>", "updates.json": b'{"files":{"activity":1}}',
+                 "activity.json": b'{"version":1}'}
+        for stamp in (None, "2026-02-31", "20261124", ""):
+            with self.subTest(stamp=stamp):
+                files["notices.json"] = json.dumps({"updated": stamp, "items": []}).encode()
+                with self.assertRaisesRegex(ValueError, "updated"):
+                    mirror.validate_snapshot(files)
+        files["notices.json"] = b'{"updated":"2026-11-24","items":[]}'
+        self.assertIn("notices.json", mirror.validate_snapshot(files))
+
     def test_version_validation_is_not_retried(self):
         snapshot = {
             "updates.json": b'{"files":{"activity":1}}',
             "index.html": b"<html></html>",
-            "notices.json": b'{"items":[]}',
+            "notices.json": b'{"updated":"2026-11-24","items":[]}',
             "activity.json": b'{"version":2}',
         }
         opener = FakeOpener([json.dumps({"sha": "a" * 40}).encode()] + [
